@@ -1,0 +1,84 @@
+=== Run information ===
+
+Scheme:       weka.classifiers.lazy.IBk -K 16 -W 0 -A "weka.core.neighboursearch.LinearNNSearch -A \"weka.core.EuclideanDistance -R first-last\""
+Relation:     waveform
+Instances:    5000
+Attributes:   41
+              x1
+              x2
+              x3
+              x4
+              x5
+              x6
+              x7
+              x8
+              x9
+              x10
+              x11
+              x12
+              x13
+              x14
+              x15
+              x16
+              x17
+              x18
+              x19
+              x20
+              x21
+              x22
+              x23
+              x24
+              x25
+              x26
+              x27
+              x28
+              x29
+              x30
+              x31
+              x32
+              x33
+              x34
+              x35
+              x36
+              x37
+              x38
+              x39
+              x40
+              class
+Test mode:    10-fold cross-validation
+
+=== Classifier model (full training set) ===
+
+IB1 instance-based classifier
+using 16 nearest neighbour(s) for classification
+
+
+Time taken to build model: 0 seconds
+
+=== Stratified cross-validation ===
+=== Summary ===
+
+Correctly Classified Instances        4140               82.8    %
+Incorrectly Classified Instances       860               17.2    %
+Kappa statistic                          0.742 
+Mean absolute error                      0.1963
+Root mean squared error                  0.2903
+Relative absolute error                 44.1724 %
+Root relative squared error             61.5879 %
+Total Number of Instances             5000     
+
+=== Detailed Accuracy By Class ===
+
+                 TP Rate  FP Rate  Precision  Recall   F-Measure  MCC      ROC Area  PRC Area  Class
+                 0.814    0.099    0.808      0.814    0.811      0.713    0.946     0.893     0
+                 0.828    0.080    0.837      0.828    0.832      0.750    0.963     0.919     1
+                 0.843    0.079    0.840      0.843    0.842      0.763    0.961     0.907     2
+Weighted Avg.    0.828    0.086    0.828      0.828    0.828      0.742    0.957     0.906     
+
+=== Confusion Matrix ===
+
+    a    b    c   <-- classified as
+ 1377  134  181 |    a = 0
+  201 1368   84 |    b = 1
+  127  133 1395 |    c = 2
+

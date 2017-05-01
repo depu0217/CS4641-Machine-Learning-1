@@ -1,0 +1,237 @@
+=== Run information ===
+
+Scheme:       weka.classifiers.functions.SMO -C 1.2 -L 0.001 -P 1.0E-12 -N 0 -V -1 -W 1 -K "weka.classifiers.functions.supportVector.PolyKernel -E 1.0 -C 250007" -calibrator "weka.classifiers.functions.Logistic -R 1.0E-8 -M -1 -num-decimal-places 4"
+Relation:     waveform
+Instances:    5000
+Attributes:   41
+              x1
+              x2
+              x3
+              x4
+              x5
+              x6
+              x7
+              x8
+              x9
+              x10
+              x11
+              x12
+              x13
+              x14
+              x15
+              x16
+              x17
+              x18
+              x19
+              x20
+              x21
+              x22
+              x23
+              x24
+              x25
+              x26
+              x27
+              x28
+              x29
+              x30
+              x31
+              x32
+              x33
+              x34
+              x35
+              x36
+              x37
+              x38
+              x39
+              x40
+              class
+Test mode:    10-fold cross-validation
+
+=== Classifier model (full training set) ===
+
+SMO
+
+Kernel used:
+  Linear Kernel: K(x,y) = <x,y>
+
+Classifier for classes: 0, 1
+
+BinarySMO
+
+Machine linear: showing attribute weights, not support vectors.
+
+        -0.0376 * (normalized) x1
+ +       0.1218 * (normalized) x2
+ +      -1.128  * (normalized) x3
+ +      -1.382  * (normalized) x4
+ +      -1.8673 * (normalized) x5
+ +      -0.8894 * (normalized) x6
+ +       0.0986 * (normalized) x7
+ +       2.3079 * (normalized) x8
+ +       3.7626 * (normalized) x9
+ +       3.4921 * (normalized) x10
+ +       4.307  * (normalized) x11
+ +       2.3586 * (normalized) x12
+ +       1.5135 * (normalized) x13
+ +      -0.4869 * (normalized) x14
+ +      -4.1633 * (normalized) x15
+ +      -4.0199 * (normalized) x16
+ +      -3.6642 * (normalized) x17
+ +      -1.9187 * (normalized) x18
+ +      -0.9305 * (normalized) x19
+ +      -0.7058 * (normalized) x20
+ +      -0.0015 * (normalized) x21
+ +       0.0477 * (normalized) x22
+ +       0.0416 * (normalized) x23
+ +       0.3165 * (normalized) x24
+ +      -0.4143 * (normalized) x25
+ +      -0.016  * (normalized) x26
+ +      -0.2842 * (normalized) x27
+ +       0.1869 * (normalized) x28
+ +      -0.2809 * (normalized) x29
+ +      -0.3859 * (normalized) x30
+ +       0.1875 * (normalized) x31
+ +      -0.0715 * (normalized) x32
+ +      -0.2257 * (normalized) x33
+ +      -0.3197 * (normalized) x34
+ +       0.4814 * (normalized) x35
+ +      -0.2655 * (normalized) x36
+ +       0.2696 * (normalized) x37
+ +      -0.1575 * (normalized) x38
+ +       0.0439 * (normalized) x39
+ +       0.1428 * (normalized) x40
+ +       0.7787
+
+Number of kernel evaluations: 427513 (72.436% cached)
+
+Classifier for classes: 0, 2
+
+BinarySMO
+
+Machine linear: showing attribute weights, not support vectors.
+
+        -0.003  * (normalized) x1
+ +      -0.539  * (normalized) x2
+ +      -1.0242 * (normalized) x3
+ +      -1.8657 * (normalized) x4
+ +      -3.6405 * (normalized) x5
+ +      -4.0728 * (normalized) x6
+ +      -2.8119 * (normalized) x7
+ +      -0.8663 * (normalized) x8
+ +       1.4127 * (normalized) x9
+ +       3.4449 * (normalized) x10
+ +       3.8091 * (normalized) x11
+ +       3.4844 * (normalized) x12
+ +       3.0792 * (normalized) x13
+ +       1.6295 * (normalized) x14
+ +       0.1105 * (normalized) x15
+ +       0.535  * (normalized) x16
+ +      -1.0477 * (normalized) x17
+ +      -1.308  * (normalized) x18
+ +      -0.286  * (normalized) x19
+ +      -0.1196 * (normalized) x20
+ +       0.1054 * (normalized) x21
+ +      -0.1405 * (normalized) x22
+ +       0.1036 * (normalized) x23
+ +       0.5196 * (normalized) x24
+ +      -0.1901 * (normalized) x25
+ +       0.0738 * (normalized) x26
+ +       0.2295 * (normalized) x27
+ +      -0.593  * (normalized) x28
+ +       0.5161 * (normalized) x29
+ +      -0.0261 * (normalized) x30
+ +       0.6795 * (normalized) x31
+ +       0.3642 * (normalized) x32
+ +       0.3212 * (normalized) x33
+ +       0.1864 * (normalized) x34
+ +       0.4531 * (normalized) x35
+ +       0.1271 * (normalized) x36
+ +       0.0295 * (normalized) x37
+ +       0.0456 * (normalized) x38
+ +      -0.111  * (normalized) x39
+ +      -0.7996 * (normalized) x40
+ -       1.758 
+
+Number of kernel evaluations: 397022 (71.938% cached)
+
+Classifier for classes: 1, 2
+
+BinarySMO
+
+Machine linear: showing attribute weights, not support vectors.
+
+         0.0501 * (normalized) x1
+ +      -0.1757 * (normalized) x2
+ +      -0.8835 * (normalized) x3
+ +      -1.2006 * (normalized) x4
+ +      -1.8748 * (normalized) x5
+ +      -3.3549 * (normalized) x6
+ +      -4.1077 * (normalized) x7
+ +      -3.2212 * (normalized) x8
+ +      -2.8382 * (normalized) x9
+ +      -0.4774 * (normalized) x10
+ +      -0.216  * (normalized) x11
+ +       1.2161 * (normalized) x12
+ +       2.4845 * (normalized) x13
+ +       3.3552 * (normalized) x14
+ +       3.1887 * (normalized) x15
+ +       3.6113 * (normalized) x16
+ +       2.4376 * (normalized) x17
+ +       1.799  * (normalized) x18
+ +       0.0499 * (normalized) x19
+ +       1.0909 * (normalized) x20
+ +       0.2422 * (normalized) x21
+ +       0.1969 * (normalized) x22
+ +      -0.5122 * (normalized) x23
+ +       0.1595 * (normalized) x24
+ +       0.5737 * (normalized) x25
+ +       0.0593 * (normalized) x26
+ +       0.0442 * (normalized) x27
+ +      -0.6333 * (normalized) x28
+ +       0.0454 * (normalized) x29
+ +      -0.177  * (normalized) x30
+ +      -0.6359 * (normalized) x31
+ +       0.5087 * (normalized) x32
+ +      -0.2516 * (normalized) x33
+ +       0.2147 * (normalized) x34
+ +      -0.384  * (normalized) x35
+ +      -0.0715 * (normalized) x36
+ +       0.4191 * (normalized) x37
+ +       0.0356 * (normalized) x38
+ +       0.1165 * (normalized) x39
+ +       0.5909 * (normalized) x40
+ -       0.4531
+
+Number of kernel evaluations: 204797 (74.981% cached)
+
+
+
+Time taken to build model: 0.33 seconds
+
+=== Stratified cross-validation ===
+=== Summary ===
+
+Correctly Classified Instances        4328               86.56   %
+Incorrectly Classified Instances       672               13.44   %
+Kappa statistic                          0.7984
+Mean absolute error                      0.2521
+Root mean squared error                  0.3224
+Relative absolute error                 56.7333 %
+Root relative squared error             68.4027 %
+Total Number of Instances             5000     
+
+=== Detailed Accuracy By Class ===
+
+                 TP Rate  FP Rate  Precision  Recall   F-Measure  MCC      ROC Area  PRC Area  Class
+                 0.823    0.060    0.876      0.823    0.849      0.776    0.917     0.803     0
+                 0.879    0.065    0.869      0.879    0.874      0.811    0.940     0.827     1
+                 0.896    0.077    0.853      0.896    0.874      0.810    0.938     0.819     2
+Weighted Avg.    0.866    0.067    0.866      0.866    0.865      0.799    0.932     0.816     
+
+=== Confusion Matrix ===
+
+    a    b    c   <-- classified as
+ 1392  135  165 |    a = 0
+  109 1453   91 |    b = 1
+   88   84 1483 |    c = 2
+

@@ -1,0 +1,2060 @@
+=== Run information ===
+
+Scheme:       weka.classifiers.functions.SMO -C 1.0 -L 0.001 -P 1.0E-12 -N 0 -V -1 -W 1 -K "weka.classifiers.functions.supportVector.PolyKernel -E 1.0 -C 250007" -calibrator "weka.classifiers.functions.Logistic -R 1.0E-8 -M -1 -num-decimal-places 4"
+Relation:     vowel
+Instances:    990
+Attributes:   14
+              Train or Test
+              Speaker Number
+              Sex
+              Feature 0
+              Feature 1
+              Feature 2
+              Feature 3
+              Feature 4
+              Feature 5
+              Feature 6
+              Feature 7
+              Feature 8
+              Feature 9
+              Class
+Test mode:    10-fold cross-validation
+
+=== Classifier model (full training set) ===
+
+SMO
+
+Kernel used:
+  Linear Kernel: K(x,y) = <x,y>
+
+Classifier for classes: hid, hId
+
+BinarySMO
+
+Machine linear: showing attribute weights, not support vectors.
+
+         0.0917 * (normalized) Train or Test=Test
+ +       0.6046 * (normalized) Speaker Number=Andrew
+ +       0.0855 * (normalized) Speaker Number=Bill
+ +      -0.7952 * (normalized) Speaker Number=David
+ +      -0.7464 * (normalized) Speaker Number=Mark
+ +       0.8262 * (normalized) Speaker Number=Jo
+ +       0.5069 * (normalized) Speaker Number=Kate
+ +       0.3301 * (normalized) Speaker Number=Penny
+ +      -0.9034 * (normalized) Speaker Number=Rose
+ +       0      * (normalized) Speaker Number=Mike
+ +       0.1372 * (normalized) Speaker Number=Nick
+ +       1.0952 * (normalized) Speaker Number=Rich
+ +       0.2355 * (normalized) Speaker Number=Sarah
+ +      -1.0541 * (normalized) Speaker Number=Sue
+ +      -0.3222 * (normalized) Speaker Number=Wendy
+ +      -0.3809 * (normalized) Sex=Female
+ +       2.2566 * (normalized) Feature 0
+ +       5.5382 * (normalized) Feature 1
+ +      -0.8498 * (normalized) Feature 2
+ +      -3.5761 * (normalized) Feature 3
+ +       1.2898 * (normalized) Feature 4
+ +      -2.1912 * (normalized) Feature 5
+ +      -1.6781 * (normalized) Feature 6
+ +       1.0463 * (normalized) Feature 7
+ +      -0.3845 * (normalized) Feature 8
+ +       1.0349 * (normalized) Feature 9
+ +       0.8575
+
+Number of kernel evaluations: 9344 (85.65% cached)
+
+Classifier for classes: hid, hEd
+
+BinarySMO
+
+Machine linear: showing attribute weights, not support vectors.
+
+        -0.0889 * (normalized) Train or Test=Test
+ +      -0      * (normalized) Speaker Number=Andrew
+ +       0      * (normalized) Speaker Number=Bill
+ +      -0.1674 * (normalized) Speaker Number=David
+ +      -0.3435 * (normalized) Speaker Number=Mark
+ +       0.26   * (normalized) Speaker Number=Jo
+ +       0.6448 * (normalized) Speaker Number=Kate
+ +      -0.3051 * (normalized) Speaker Number=Rose
+ +       0.5514 * (normalized) Speaker Number=Mike
+ +       0      * (normalized) Speaker Number=Nick
+ +       0.2993 * (normalized) Speaker Number=Rich
+ +       0.3361 * (normalized) Speaker Number=Tim
+ +      -0.4689 * (normalized) Speaker Number=Sarah
+ +      -0.2826 * (normalized) Speaker Number=Sue
+ +      -0.5241 * (normalized) Speaker Number=Wendy
+ +      -0.6759 * (normalized) Sex=Female
+ +       2.8253 * (normalized) Feature 0
+ +       3.4424 * (normalized) Feature 1
+ +      -2.2886 * (normalized) Feature 2
+ +      -1.8499 * (normalized) Feature 3
+ +      -0.3367 * (normalized) Feature 4
+ +      -2.9736 * (normalized) Feature 5
+ +      -1.8624 * (normalized) Feature 6
+ +      -1.4302 * (normalized) Feature 7
+ +       0.5457 * (normalized) Feature 8
+ +       1.8605 * (normalized) Feature 9
+ +       2.1569
+
+Number of kernel evaluations: 9524 (84.924% cached)
+
+Classifier for classes: hid, hAd
+
+BinarySMO
+
+Machine linear: showing attribute weights, not support vectors.
+
+        -0.1141 * (normalized) Train or Test=Test
+ +       0.6362 * (normalized) Speaker Number=Andrew
+ +      -0      * (normalized) Speaker Number=Bill
+ +       0.1247 * (normalized) Speaker Number=David
+ +      -0.5171 * (normalized) Speaker Number=Mark
+ +       0      * (normalized) Speaker Number=Jo
+ +      -0.1297 * (normalized) Speaker Number=Kate
+ +       0      * (normalized) Speaker Number=Penny
+ +      -0      * (normalized) Speaker Number=Rose
+ +      -0.1713 * (normalized) Speaker Number=Mike
+ +       0      * (normalized) Speaker Number=Nick
+ +       0.1805 * (normalized) Speaker Number=Rich
+ +      -0      * (normalized) Speaker Number=Tim
+ +       0      * (normalized) Speaker Number=Sarah
+ +       0.1224 * (normalized) Speaker Number=Sue
+ +      -0.2458 * (normalized) Speaker Number=Wendy
+ +      -0.253  * (normalized) Sex=Female
+ +       1.8058 * (normalized) Feature 0
+ +       2.3597 * (normalized) Feature 1
+ +      -1.1134 * (normalized) Feature 2
+ +      -3.0837 * (normalized) Feature 3
+ +      -1.5053 * (normalized) Feature 4
+ +      -1.733  * (normalized) Feature 5
+ +      -0.1548 * (normalized) Feature 6
+ +      -1.1367 * (normalized) Feature 7
+ +       0.5092 * (normalized) Feature 8
+ +       1.608  * (normalized) Feature 9
+ +       1.7589
+
+Number of kernel evaluations: 7954 (78.772% cached)
+
+Classifier for classes: hid, hYd
+
+BinarySMO
+
+Machine linear: showing attribute weights, not support vectors.
+
+        -0.0348 * (normalized) Train or Test=Test
+ +       0.7025 * (normalized) Speaker Number=Andrew
+ +      -0      * (normalized) Speaker Number=Bill
+ +       0.2779 * (normalized) Speaker Number=David
+ +      -0.3909 * (normalized) Speaker Number=Mark
+ +       0      * (normalized) Speaker Number=Jo
+ +       0      * (normalized) Speaker Number=Kate
+ +      -0.5548 * (normalized) Speaker Number=Rose
+ +      -0.1236 * (normalized) Speaker Number=Mike
+ +      -0      * (normalized) Speaker Number=Nick
+ +       0      * (normalized) Speaker Number=Rich
+ +       0.0726 * (normalized) Speaker Number=Tim
+ +      -0.0113 * (normalized) Speaker Number=Sue
+ +       0.0276 * (normalized) Speaker Number=Wendy
+ +      -0.5386 * (normalized) Sex=Female
+ +       0.8459 * (normalized) Feature 0
+ +       3.018  * (normalized) Feature 1
+ +      -0.2764 * (normalized) Feature 2
+ +      -2.1834 * (normalized) Feature 3
+ +      -1.9997 * (normalized) Feature 4
+ +      -1.249  * (normalized) Feature 5
+ +       0.7096 * (normalized) Feature 6
+ +      -0.7491 * (normalized) Feature 7
+ +       0.5121 * (normalized) Feature 8
+ +       1.0448 * (normalized) Feature 9
+ +       0.734 
+
+Number of kernel evaluations: 7722 (83.501% cached)
+
+Classifier for classes: hid, had
+
+BinarySMO
+
+Machine linear: showing attribute weights, not support vectors.
+
+         0.0312 * (normalized) Train or Test=Test
+ +       0      * (normalized) Speaker Number=Andrew
+ +      -0      * (normalized) Speaker Number=Bill
+ +      -0.0608 * (normalized) Speaker Number=David
+ +      -0.3881 * (normalized) Speaker Number=Mark
+ +       0.9116 * (normalized) Speaker Number=Jo
+ +       0.2587 * (normalized) Speaker Number=Kate
+ +      -0      * (normalized) Speaker Number=Penny
+ +      -0.7527 * (normalized) Speaker Number=Rose
+ +       0.1573 * (normalized) Speaker Number=Mike
+ +       0      * (normalized) Speaker Number=Nick
+ +       0.2905 * (normalized) Speaker Number=Tim
+ +      -0      * (normalized) Speaker Number=Sarah
+ +      -0.0038 * (normalized) Speaker Number=Sue
+ +      -0.4129 * (normalized) Speaker Number=Wendy
+ +       0.001  * (normalized) Sex=Female
+ +       1.434  * (normalized) Feature 0
+ +       3.6682 * (normalized) Feature 1
+ +      -0.8323 * (normalized) Feature 2
+ +      -2.8481 * (normalized) Feature 3
+ +      -2.2228 * (normalized) Feature 4
+ +      -1.2788 * (normalized) Feature 5
+ +       0.0927 * (normalized) Feature 6
+ +      -0.4261 * (normalized) Feature 7
+ +       0.3693 * (normalized) Feature 8
+ +       1.103  * (normalized) Feature 9
+ +       1.3258
+
+Number of kernel evaluations: 7798 (81.269% cached)
+
+Classifier for classes: hid, hOd
+
+BinarySMO
+
+Machine linear: showing attribute weights, not support vectors.
+
+        -0.1099 * (normalized) Train or Test=Test
+ +      -0      * (normalized) Speaker Number=Andrew
+ +      -0.0541 * (normalized) Speaker Number=David
+ +       0.1705 * (normalized) Speaker Number=Mark
+ +       0.3924 * (normalized) Speaker Number=Jo
+ +       0.3902 * (normalized) Speaker Number=Kate
+ +       0.1278 * (normalized) Speaker Number=Penny
+ +      -0.917  * (normalized) Speaker Number=Rose
+ +       0.5057 * (normalized) Speaker Number=Mike
+ +       0      * (normalized) Speaker Number=Nick
+ +      -0      * (normalized) Speaker Number=Rich
+ +      -0.3325 * (normalized) Speaker Number=Sue
+ +      -0.2831 * (normalized) Speaker Number=Wendy
+ +      -0.6222 * (normalized) Sex=Female
+ +       0.444  * (normalized) Feature 0
+ +       3.9959 * (normalized) Feature 1
+ +      -0.6267 * (normalized) Feature 2
+ +      -1.9043 * (normalized) Feature 3
+ +      -1.9041 * (normalized) Feature 4
+ +      -0.8334 * (normalized) Feature 5
+ +      -0.5689 * (normalized) Feature 6
+ +      -0.6078 * (normalized) Feature 7
+ +      -0.5617 * (normalized) Feature 8
+ +       1.5815 * (normalized) Feature 9
+ +       1.3329
+
+Number of kernel evaluations: 9153 (84.916% cached)
+
+Classifier for classes: hid, hod
+
+BinarySMO
+
+Machine linear: showing attribute weights, not support vectors.
+
+         0.0072 * (normalized) Train or Test=Test
+ +       0.1891 * (normalized) Speaker Number=Andrew
+ +       0      * (normalized) Speaker Number=Bill
+ +       0      * (normalized) Speaker Number=David
+ +       0.4476 * (normalized) Speaker Number=Mark
+ +       0.2264 * (normalized) Speaker Number=Kate
+ +      -0      * (normalized) Speaker Number=Penny
+ +      -0.8704 * (normalized) Speaker Number=Rose
+ +       0      * (normalized) Speaker Number=Nick
+ +      -0      * (normalized) Speaker Number=Tim
+ +       0.316  * (normalized) Speaker Number=Sarah
+ +      -0.3391 * (normalized) Speaker Number=Sue
+ +       0.0302 * (normalized) Speaker Number=Wendy
+ +      -0.6368 * (normalized) Sex=Female
+ +      -0.838  * (normalized) Feature 0
+ +       3.3621 * (normalized) Feature 1
+ +      -0.7134 * (normalized) Feature 2
+ +      -1.6119 * (normalized) Feature 3
+ +      -1.3298 * (normalized) Feature 4
+ +      -0.3954 * (normalized) Feature 5
+ +      -0.5605 * (normalized) Feature 6
+ +       0.2324 * (normalized) Feature 7
+ +       0.3682 * (normalized) Feature 8
+ +       0.9884 * (normalized) Feature 9
+ +       0.5954
+
+Number of kernel evaluations: 6099 (85.941% cached)
+
+Classifier for classes: hid, hUd
+
+BinarySMO
+
+Machine linear: showing attribute weights, not support vectors.
+
+         0.0995 * (normalized) Train or Test=Test
+ +      -0.0438 * (normalized) Speaker Number=Andrew
+ +      -0.0069 * (normalized) Speaker Number=Bill
+ +       0.2955 * (normalized) Speaker Number=David
+ +       0.014  * (normalized) Speaker Number=Mark
+ +       0.2118 * (normalized) Speaker Number=Jo
+ +       0.641  * (normalized) Speaker Number=Kate
+ +       0.1825 * (normalized) Speaker Number=Penny
+ +      -1.3937 * (normalized) Speaker Number=Rose
+ +       0.1443 * (normalized) Speaker Number=Mike
+ +       0      * (normalized) Speaker Number=Nick
+ +      -0.1286 * (normalized) Speaker Number=Rich
+ +       0      * (normalized) Speaker Number=Tim
+ +       0      * (normalized) Speaker Number=Sarah
+ +       0.0838 * (normalized) Speaker Number=Wendy
+ +      -0.2745 * (normalized) Sex=Female
+ +      -1.3255 * (normalized) Feature 0
+ +       3.8618 * (normalized) Feature 1
+ +      -0.9615 * (normalized) Feature 2
+ +      -2.0741 * (normalized) Feature 3
+ +      -1.7001 * (normalized) Feature 4
+ +      -0.089  * (normalized) Feature 5
+ +      -0.0639 * (normalized) Feature 6
+ +       0.352  * (normalized) Feature 7
+ +       0.6551 * (normalized) Feature 8
+ +       0.6922 * (normalized) Feature 9
+ +       1.0587
+
+Number of kernel evaluations: 8495 (83.384% cached)
+
+Classifier for classes: hid, hud
+
+BinarySMO
+
+Machine linear: showing attribute weights, not support vectors.
+
+         0.124  * (normalized) Train or Test=Test
+ +      -0.346  * (normalized) Speaker Number=Andrew
+ +      -0.2072 * (normalized) Speaker Number=Bill
+ +       0.0362 * (normalized) Speaker Number=David
+ +       0.8929 * (normalized) Speaker Number=Mark
+ +       0.5965 * (normalized) Speaker Number=Jo
+ +      -0      * (normalized) Speaker Number=Kate
+ +       0.4167 * (normalized) Speaker Number=Penny
+ +      -1.513  * (normalized) Speaker Number=Rose
+ +       0.9547 * (normalized) Speaker Number=Mike
+ +      -0.3291 * (normalized) Speaker Number=Nick
+ +      -0.6009 * (normalized) Speaker Number=Rich
+ +       0.2804 * (normalized) Speaker Number=Tim
+ +      -0.1812 * (normalized) Speaker Number=Sue
+ +      -0.681  * (normalized) Sex=Female
+ +      -2.2895 * (normalized) Feature 0
+ +       4.9246 * (normalized) Feature 1
+ +      -1.8128 * (normalized) Feature 2
+ +      -0.6188 * (normalized) Feature 3
+ +       0.191  * (normalized) Feature 4
+ +      -0.2524 * (normalized) Feature 5
+ +      -1.1011 * (normalized) Feature 6
+ +      -0.3886 * (normalized) Feature 7
+ +       0.0256 * (normalized) Feature 8
+ +      -0.0791 * (normalized) Feature 9
+ +       1.2477
+
+Number of kernel evaluations: 8943 (86.176% cached)
+
+Classifier for classes: hid, hed
+
+BinarySMO
+
+Machine linear: showing attribute weights, not support vectors.
+
+        -0.0361 * (normalized) Train or Test=Test
+ +      -0.1303 * (normalized) Speaker Number=Bill
+ +       0.286  * (normalized) Speaker Number=David
+ +      -0.2582 * (normalized) Speaker Number=Mark
+ +       0.4519 * (normalized) Speaker Number=Jo
+ +       0.6477 * (normalized) Speaker Number=Kate
+ +       0.0846 * (normalized) Speaker Number=Penny
+ +      -1.0455 * (normalized) Speaker Number=Rose
+ +      -0.019  * (normalized) Speaker Number=Mike
+ +       0      * (normalized) Speaker Number=Nick
+ +       0.2552 * (normalized) Speaker Number=Rich
+ +       0.1605 * (normalized) Speaker Number=Tim
+ +      -0.4123 * (normalized) Speaker Number=Sue
+ +      -0.0205 * (normalized) Speaker Number=Wendy
+ +      -0.2942 * (normalized) Sex=Female
+ +       0.0197 * (normalized) Feature 0
+ +       3.9912 * (normalized) Feature 1
+ +      -0.7713 * (normalized) Feature 2
+ +      -3.62   * (normalized) Feature 3
+ +      -1.2648 * (normalized) Feature 4
+ +      -0.9415 * (normalized) Feature 5
+ +      -0.8759 * (normalized) Feature 6
+ +      -0.1238 * (normalized) Feature 7
+ +       1.0798 * (normalized) Feature 8
+ +       0.3434 * (normalized) Feature 9
+ +       2.5063
+
+Number of kernel evaluations: 7831 (82.119% cached)
+
+Classifier for classes: hId, hEd
+
+BinarySMO
+
+Machine linear: showing attribute weights, not support vectors.
+
+        -0.206  * (normalized) Train or Test=Test
+ +       0.7617 * (normalized) Speaker Number=Andrew
+ +       0.0128 * (normalized) Speaker Number=Bill
+ +       0.0362 * (normalized) Speaker Number=David
+ +      -0.6559 * (normalized) Speaker Number=Mark
+ +      -0.5077 * (normalized) Speaker Number=Jo
+ +       1.0224 * (normalized) Speaker Number=Kate
+ +      -0.3935 * (normalized) Speaker Number=Penny
+ +      -0.07   * (normalized) Speaker Number=Rose
+ +       0.6374 * (normalized) Speaker Number=Mike
+ +      -0.5852 * (normalized) Speaker Number=Nick
+ +       0.4222 * (normalized) Speaker Number=Rich
+ +      -0.293  * (normalized) Speaker Number=Tim
+ +      -0.356  * (normalized) Speaker Number=Sarah
+ +      -0.3768 * (normalized) Speaker Number=Sue
+ +       0.3453 * (normalized) Speaker Number=Wendy
+ +      -0.3362 * (normalized) Sex=Female
+ +       3.0801 * (normalized) Feature 0
+ +       1.2457 * (normalized) Feature 1
+ +      -1.831  * (normalized) Feature 2
+ +      -0.3165 * (normalized) Feature 3
+ +      -2.2834 * (normalized) Feature 4
+ +      -4.9093 * (normalized) Feature 5
+ +      -0.2434 * (normalized) Feature 6
+ +      -2.361  * (normalized) Feature 7
+ +      -0.6107 * (normalized) Feature 8
+ +      -0.6735 * (normalized) Feature 9
+ +       4.7183
+
+Number of kernel evaluations: 9340 (86.704% cached)
+
+Classifier for classes: hId, hAd
+
+BinarySMO
+
+Machine linear: showing attribute weights, not support vectors.
+
+        -0.0812 * (normalized) Train or Test=Test
+ +       0.1618 * (normalized) Speaker Number=Andrew
+ +      -0.3462 * (normalized) Speaker Number=Bill
+ +       0.6473 * (normalized) Speaker Number=David
+ +      -0.4607 * (normalized) Speaker Number=Mark
+ +      -0      * (normalized) Speaker Number=Jo
+ +      -0      * (normalized) Speaker Number=Kate
+ +       0.0791 * (normalized) Speaker Number=Rose
+ +       0.1284 * (normalized) Speaker Number=Mike
+ +      -0.3409 * (normalized) Speaker Number=Nick
+ +       0.0318 * (normalized) Speaker Number=Rich
+ +      -0.0643 * (normalized) Speaker Number=Tim
+ +      -0.1122 * (normalized) Speaker Number=Sarah
+ +      -0.1188 * (normalized) Speaker Number=Sue
+ +       0.3948 * (normalized) Speaker Number=Wendy
+ +       0.2429 * (normalized) Sex=Female
+ +       1.0021 * (normalized) Feature 0
+ +       3.0026 * (normalized) Feature 1
+ +      -1.5032 * (normalized) Feature 2
+ +      -1.7778 * (normalized) Feature 3
+ +      -3.2613 * (normalized) Feature 4
+ +      -2.986  * (normalized) Feature 5
+ +       0.5567 * (normalized) Feature 6
+ +      -1.3971 * (normalized) Feature 7
+ +       0.1042 * (normalized) Feature 8
+ +      -1.7319 * (normalized) Feature 9
+ +       4.0586
+
+Number of kernel evaluations: 9333 (86.499% cached)
+
+Classifier for classes: hId, hYd
+
+BinarySMO
+
+Machine linear: showing attribute weights, not support vectors.
+
+         0.0602 * (normalized) Train or Test=Test
+ +       0.3382 * (normalized) Speaker Number=Andrew
+ +      -0.3417 * (normalized) Speaker Number=Bill
+ +       0.3348 * (normalized) Speaker Number=David
+ +      -0.1951 * (normalized) Speaker Number=Mark
+ +       0.0448 * (normalized) Speaker Number=Jo
+ +      -0.2412 * (normalized) Speaker Number=Rose
+ +      -0.1287 * (normalized) Speaker Number=Mike
+ +      -0.2274 * (normalized) Speaker Number=Nick
+ +       0      * (normalized) Speaker Number=Rich
+ +       0.0898 * (normalized) Speaker Number=Tim
+ +      -0.039  * (normalized) Speaker Number=Sarah
+ +      -0.1003 * (normalized) Speaker Number=Sue
+ +       0.4658 * (normalized) Speaker Number=Wendy
+ +       0.13   * (normalized) Sex=Female
+ +      -0.328  * (normalized) Feature 0
+ +       3.8791 * (normalized) Feature 1
+ +      -0.0357 * (normalized) Feature 2
+ +      -1.0722 * (normalized) Feature 3
+ +      -3.9909 * (normalized) Feature 4
+ +      -0.9499 * (normalized) Feature 5
+ +       0.3457 * (normalized) Feature 6
+ +      -0.2951 * (normalized) Feature 7
+ +       0.9307 * (normalized) Feature 8
+ +      -0.6305 * (normalized) Feature 9
+ +       1.0338
+
+Number of kernel evaluations: 8614 (85.873% cached)
+
+Classifier for classes: hId, had
+
+BinarySMO
+
+Machine linear: showing attribute weights, not support vectors.
+
+        -0.112  * (normalized) Train or Test=Test
+ +      -0.3358 * (normalized) Speaker Number=Bill
+ +       0.3423 * (normalized) Speaker Number=David
+ +      -0.6151 * (normalized) Speaker Number=Mark
+ +       0.437  * (normalized) Speaker Number=Jo
+ +       0.6259 * (normalized) Speaker Number=Kate
+ +       0.262  * (normalized) Speaker Number=Penny
+ +      -0.6043 * (normalized) Speaker Number=Rose
+ +       0.0706 * (normalized) Speaker Number=Mike
+ +      -0.1393 * (normalized) Speaker Number=Nick
+ +       0.0653 * (normalized) Speaker Number=Rich
+ +       0.2183 * (normalized) Speaker Number=Tim
+ +      -0.3269 * (normalized) Speaker Number=Sarah
+ +       0      * (normalized) Speaker Number=Wendy
+ +       0.3937 * (normalized) Sex=Female
+ +      -0.3011 * (normalized) Feature 0
+ +       3.9514 * (normalized) Feature 1
+ +       0.0641 * (normalized) Feature 2
+ +      -1.6384 * (normalized) Feature 3
+ +      -3.9289 * (normalized) Feature 4
+ +      -1.9707 * (normalized) Feature 5
+ +       1.0805 * (normalized) Feature 6
+ +      -0.4689 * (normalized) Feature 7
+ +       0.8548 * (normalized) Feature 8
+ +      -0.7948 * (normalized) Feature 9
+ +       1.9881
+
+Number of kernel evaluations: 9536 (84.293% cached)
+
+Classifier for classes: hId, hOd
+
+BinarySMO
+
+Machine linear: showing attribute weights, not support vectors.
+
+         0.0192 * (normalized) Train or Test=Test
+ +      -0.2141 * (normalized) Speaker Number=Andrew
+ +       0      * (normalized) Speaker Number=Bill
+ +      -0.0116 * (normalized) Speaker Number=David
+ +       0.3197 * (normalized) Speaker Number=Mark
+ +      -0      * (normalized) Speaker Number=Jo
+ +       0.3885 * (normalized) Speaker Number=Kate
+ +       0      * (normalized) Speaker Number=Penny
+ +      -0.5016 * (normalized) Speaker Number=Rose
+ +       0.6911 * (normalized) Speaker Number=Mike
+ +      -0.4593 * (normalized) Speaker Number=Nick
+ +       0      * (normalized) Speaker Number=Rich
+ +      -0      * (normalized) Speaker Number=Tim
+ +      -0.1181 * (normalized) Speaker Number=Sarah
+ +      -0.1564 * (normalized) Speaker Number=Sue
+ +       0.0619 * (normalized) Speaker Number=Wendy
+ +      -0.3258 * (normalized) Sex=Female
+ +      -1.2729 * (normalized) Feature 0
+ +       4.4705 * (normalized) Feature 1
+ +      -0.423  * (normalized) Feature 2
+ +      -0.4726 * (normalized) Feature 3
+ +      -3.6076 * (normalized) Feature 4
+ +      -0.5903 * (normalized) Feature 5
+ +      -0.2312 * (normalized) Feature 6
+ +       0.0135 * (normalized) Feature 7
+ +      -0.012  * (normalized) Feature 8
+ +       0.5751 * (normalized) Feature 9
+ +       0.9543
+
+Number of kernel evaluations: 9791 (84.214% cached)
+
+Classifier for classes: hId, hod
+
+BinarySMO
+
+Machine linear: showing attribute weights, not support vectors.
+
+        -0.0278 * (normalized) Train or Test=Test
+ +      -0.1495 * (normalized) Speaker Number=Andrew
+ +       0      * (normalized) Speaker Number=Bill
+ +       0      * (normalized) Speaker Number=David
+ +       0.4727 * (normalized) Speaker Number=Mark
+ +       0      * (normalized) Speaker Number=Jo
+ +       0.0042 * (normalized) Speaker Number=Penny
+ +      -0.2996 * (normalized) Speaker Number=Rose
+ +      -0      * (normalized) Speaker Number=Mike
+ +      -0.2749 * (normalized) Speaker Number=Nick
+ +      -0      * (normalized) Speaker Number=Rich
+ +       0      * (normalized) Speaker Number=Tim
+ +       0.152  * (normalized) Speaker Number=Sarah
+ +      -0.0534 * (normalized) Speaker Number=Sue
+ +       0.1485 * (normalized) Speaker Number=Wendy
+ +      -0.0484 * (normalized) Sex=Female
+ +      -2.1244 * (normalized) Feature 0
+ +       3.2613 * (normalized) Feature 1
+ +      -0.3342 * (normalized) Feature 2
+ +      -0.5637 * (normalized) Feature 3
+ +      -2.1668 * (normalized) Feature 4
+ +       0.1521 * (normalized) Feature 5
+ +      -0.3604 * (normalized) Feature 6
+ +       0.9236 * (normalized) Feature 7
+ +       1.0145 * (normalized) Feature 8
+ +      -0.1575 * (normalized) Feature 9
+ -       0.1502
+
+Number of kernel evaluations: 8366 (82.263% cached)
+
+Classifier for classes: hId, hUd
+
+BinarySMO
+
+Machine linear: showing attribute weights, not support vectors.
+
+        -0.22   * (normalized) Train or Test=Test
+ +      -0.3336 * (normalized) Speaker Number=Andrew
+ +      -0      * (normalized) Speaker Number=Bill
+ +       0.4801 * (normalized) Speaker Number=David
+ +       0.2012 * (normalized) Speaker Number=Mark
+ +       0.035  * (normalized) Speaker Number=Jo
+ +       0.1874 * (normalized) Speaker Number=Kate
+ +       0.5396 * (normalized) Speaker Number=Penny
+ +      -0.8897 * (normalized) Speaker Number=Rose
+ +       0.2081 * (normalized) Speaker Number=Mike
+ +      -0.363  * (normalized) Speaker Number=Nick
+ +      -0.1612 * (normalized) Speaker Number=Rich
+ +      -0.137  * (normalized) Speaker Number=Sarah
+ +      -0      * (normalized) Speaker Number=Sue
+ +       0.2331 * (normalized) Speaker Number=Wendy
+ +      -0.0316 * (normalized) Sex=Female
+ +      -3.353  * (normalized) Feature 0
+ +       3.3359 * (normalized) Feature 1
+ +      -0.2882 * (normalized) Feature 2
+ +      -1.4006 * (normalized) Feature 3
+ +      -2.1573 * (normalized) Feature 4
+ +       0.2035 * (normalized) Feature 5
+ +      -0.0123 * (normalized) Feature 6
+ +       1.0924 * (normalized) Feature 7
+ +       1.0816 * (normalized) Feature 8
+ +       0.0476 * (normalized) Feature 9
+ +       0.9063
+
+Number of kernel evaluations: 9260 (86.989% cached)
+
+Classifier for classes: hId, hud
+
+BinarySMO
+
+Machine linear: showing attribute weights, not support vectors.
+
+        -0.2121 * (normalized) Train or Test=Test
+ +      -0.3901 * (normalized) Speaker Number=Andrew
+ +       0.0936 * (normalized) Speaker Number=Bill
+ +      -0      * (normalized) Speaker Number=David
+ +       1.1134 * (normalized) Speaker Number=Mark
+ +       0.242  * (normalized) Speaker Number=Jo
+ +      -0.5441 * (normalized) Speaker Number=Kate
+ +       0.4359 * (normalized) Speaker Number=Penny
+ +      -0.7386 * (normalized) Speaker Number=Rose
+ +       0.9677 * (normalized) Speaker Number=Mike
+ +      -1.0804 * (normalized) Speaker Number=Nick
+ +      -0.4564 * (normalized) Speaker Number=Rich
+ +       0.1601 * (normalized) Speaker Number=Tim
+ +      -0.0414 * (normalized) Speaker Number=Sarah
+ +       0      * (normalized) Speaker Number=Sue
+ +       0.2384 * (normalized) Speaker Number=Wendy
+ +      -0.4078 * (normalized) Sex=Female
+ +      -3.9737 * (normalized) Feature 0
+ +       3.341  * (normalized) Feature 1
+ +      -0.8449 * (normalized) Feature 2
+ +       0.7165 * (normalized) Feature 3
+ +      -0.6514 * (normalized) Feature 4
+ +       0.0367 * (normalized) Feature 5
+ +      -0.9785 * (normalized) Feature 6
+ +       0.3891 * (normalized) Feature 7
+ +       0.819  * (normalized) Feature 8
+ +      -1.5524 * (normalized) Feature 9
+ +       1.2348
+
+Number of kernel evaluations: 8556 (85.431% cached)
+
+Classifier for classes: hId, hed
+
+BinarySMO
+
+Machine linear: showing attribute weights, not support vectors.
+
+        -0.1172 * (normalized) Train or Test=Test
+ +       0.0249 * (normalized) Speaker Number=Andrew
+ +      -0.2848 * (normalized) Speaker Number=Bill
+ +       0.4967 * (normalized) Speaker Number=David
+ +       0.1704 * (normalized) Speaker Number=Jo
+ +       0.4114 * (normalized) Speaker Number=Kate
+ +       0.2985 * (normalized) Speaker Number=Penny
+ +      -1      * (normalized) Speaker Number=Rose
+ +       0.1412 * (normalized) Speaker Number=Mike
+ +      -0.444  * (normalized) Speaker Number=Nick
+ +      -0.0451 * (normalized) Speaker Number=Rich
+ +       0.1983 * (normalized) Speaker Number=Tim
+ +       0.028  * (normalized) Speaker Number=Sarah
+ +      -0.3489 * (normalized) Speaker Number=Sue
+ +       0.3533 * (normalized) Speaker Number=Wendy
+ +      -0.0873 * (normalized) Sex=Female
+ +      -2.9451 * (normalized) Feature 0
+ +       4.4341 * (normalized) Feature 1
+ +       0.256  * (normalized) Feature 2
+ +      -3.3006 * (normalized) Feature 3
+ +      -3.3834 * (normalized) Feature 4
+ +      -1.724  * (normalized) Feature 5
+ +      -0.054  * (normalized) Feature 6
+ +       0.5717 * (normalized) Feature 7
+ +       0.4272 * (normalized) Feature 8
+ +      -0.7724 * (normalized) Feature 9
+ +       4.2672
+
+Number of kernel evaluations: 11047 (88.377% cached)
+
+Classifier for classes: hEd, hAd
+
+BinarySMO
+
+Machine linear: showing attribute weights, not support vectors.
+
+        -0.2972 * (normalized) Train or Test=Test
+ +      -0.2327 * (normalized) Speaker Number=Andrew
+ +      -0.5035 * (normalized) Speaker Number=Bill
+ +       0.7915 * (normalized) Speaker Number=David
+ +      -0.5175 * (normalized) Speaker Number=Mark
+ +       0.2011 * (normalized) Speaker Number=Jo
+ +      -0.2273 * (normalized) Speaker Number=Penny
+ +       0.7856 * (normalized) Speaker Number=Rose
+ +       0.3601 * (normalized) Speaker Number=Mike
+ +      -0.8672 * (normalized) Speaker Number=Nick
+ +       0.1173 * (normalized) Speaker Number=Rich
+ +       0.2196 * (normalized) Speaker Number=Tim
+ +      -0.4311 * (normalized) Speaker Number=Sarah
+ +      -0.1966 * (normalized) Speaker Number=Sue
+ +       0.5007 * (normalized) Speaker Number=Wendy
+ +       0.6324 * (normalized) Sex=Female
+ +       1.0455 * (normalized) Feature 0
+ +       4.9831 * (normalized) Feature 1
+ +      -1.3851 * (normalized) Feature 2
+ +      -3.1913 * (normalized) Feature 3
+ +      -4.3989 * (normalized) Feature 4
+ +      -2.0176 * (normalized) Feature 5
+ +       1.2111 * (normalized) Feature 6
+ +      -0.7256 * (normalized) Feature 7
+ +       2.1636 * (normalized) Feature 8
+ +      -2.1107 * (normalized) Feature 9
+ +       2.3071
+
+Number of kernel evaluations: 11557 (89.089% cached)
+
+Classifier for classes: hEd, hYd
+
+BinarySMO
+
+Machine linear: showing attribute weights, not support vectors.
+
+        -0.0478 * (normalized) Train or Test=Test
+ +      -0.0768 * (normalized) Speaker Number=Andrew
+ +      -0.448  * (normalized) Speaker Number=Bill
+ +       0.585  * (normalized) Speaker Number=David
+ +       0.1054 * (normalized) Speaker Number=Mark
+ +       0      * (normalized) Speaker Number=Jo
+ +       0      * (normalized) Speaker Number=Kate
+ +      -0      * (normalized) Speaker Number=Penny
+ +      -0.1177 * (normalized) Speaker Number=Rose
+ +      -0.113  * (normalized) Speaker Number=Mike
+ +      -0.0991 * (normalized) Speaker Number=Nick
+ +      -0.0622 * (normalized) Speaker Number=Rich
+ +       0.1727 * (normalized) Speaker Number=Tim
+ +      -0.1778 * (normalized) Speaker Number=Sarah
+ +       0.0424 * (normalized) Speaker Number=Sue
+ +       0.1892 * (normalized) Speaker Number=Wendy
+ +      -0.0639 * (normalized) Sex=Female
+ +      -1.5472 * (normalized) Feature 0
+ +       4.6519 * (normalized) Feature 1
+ +       0.641  * (normalized) Feature 2
+ +      -2.1562 * (normalized) Feature 3
+ +      -2.8861 * (normalized) Feature 4
+ +       0.2045 * (normalized) Feature 5
+ +       0.7194 * (normalized) Feature 6
+ +       0.2491 * (normalized) Feature 7
+ +       1.2565 * (normalized) Feature 8
+ +      -0.7439 * (normalized) Feature 9
+ +       0.1095
+
+Number of kernel evaluations: 10013 (87.006% cached)
+
+Classifier for classes: hEd, had
+
+BinarySMO
+
+Machine linear: showing attribute weights, not support vectors.
+
+        -0.3266 * (normalized) Train or Test=Test
+ +      -0.5037 * (normalized) Speaker Number=Andrew
+ +      -0.5512 * (normalized) Speaker Number=Bill
+ +       0.755  * (normalized) Speaker Number=David
+ +      -0.2066 * (normalized) Speaker Number=Mark
+ +       0.5214 * (normalized) Speaker Number=Jo
+ +       0.5754 * (normalized) Speaker Number=Kate
+ +       0.2906 * (normalized) Speaker Number=Penny
+ +      -0.5544 * (normalized) Speaker Number=Rose
+ +      -0.0012 * (normalized) Speaker Number=Mike
+ +       0.1738 * (normalized) Speaker Number=Nick
+ +      -0.1898 * (normalized) Speaker Number=Rich
+ +       0.29   * (normalized) Speaker Number=Tim
+ +      -0.3051 * (normalized) Speaker Number=Sarah
+ +       0      * (normalized) Speaker Number=Sue
+ +      -0.2943 * (normalized) Speaker Number=Wendy
+ +       0.2337 * (normalized) Sex=Female
+ +      -2.2057 * (normalized) Feature 0
+ +       5.0047 * (normalized) Feature 1
+ +       1.2963 * (normalized) Feature 2
+ +      -3.186  * (normalized) Feature 3
+ +      -2.9115 * (normalized) Feature 4
+ +       0.5538 * (normalized) Feature 5
+ +       1.3841 * (normalized) Feature 6
+ +      -0.0202 * (normalized) Feature 7
+ +       1.4781 * (normalized) Feature 8
+ +      -0.327  * (normalized) Feature 9
+ +       0.3526
+
+Number of kernel evaluations: 11365 (88.554% cached)
+
+Classifier for classes: hEd, hOd
+
+BinarySMO
+
+Machine linear: showing attribute weights, not support vectors.
+
+        -0.0567 * (normalized) Train or Test=Test
+ +      -0.4459 * (normalized) Speaker Number=Andrew
+ +       0.2236 * (normalized) Speaker Number=David
+ +       0.4849 * (normalized) Speaker Number=Mark
+ +       0      * (normalized) Speaker Number=Jo
+ +       0.3856 * (normalized) Speaker Number=Kate
+ +       0      * (normalized) Speaker Number=Penny
+ +      -0.5915 * (normalized) Speaker Number=Rose
+ +       0.4387 * (normalized) Speaker Number=Mike
+ +      -0.0313 * (normalized) Speaker Number=Nick
+ +      -0.2195 * (normalized) Speaker Number=Rich
+ +       0.0096 * (normalized) Speaker Number=Tim
+ +      -0.1607 * (normalized) Speaker Number=Sarah
+ +       0.0609 * (normalized) Speaker Number=Sue
+ +      -0.1543 * (normalized) Speaker Number=Wendy
+ +      -0.4602 * (normalized) Sex=Female
+ +      -2.3929 * (normalized) Feature 0
+ +       4.7459 * (normalized) Feature 1
+ +       0.8327 * (normalized) Feature 2
+ +      -1.028  * (normalized) Feature 3
+ +      -2.0605 * (normalized) Feature 4
+ +       0.5903 * (normalized) Feature 5
+ +       0.1444 * (normalized) Feature 6
+ +       1.1464 * (normalized) Feature 7
+ +       0.0917 * (normalized) Feature 8
+ +       0.8152 * (normalized) Feature 9
+ -       1.1046
+
+Number of kernel evaluations: 11680 (87.578% cached)
+
+Classifier for classes: hEd, hod
+
+BinarySMO
+
+Machine linear: showing attribute weights, not support vectors.
+
+         0.0161 * (normalized) Train or Test=Test
+ +      -0.1566 * (normalized) Speaker Number=Andrew
+ +       0      * (normalized) Speaker Number=Bill
+ +       0.4391 * (normalized) Speaker Number=Mark
+ +       0      * (normalized) Speaker Number=Penny
+ +      -0.2986 * (normalized) Speaker Number=Rose
+ +      -0.0195 * (normalized) Speaker Number=Mike
+ +      -0.0494 * (normalized) Speaker Number=Rich
+ +      -0      * (normalized) Speaker Number=Tim
+ +       0.0651 * (normalized) Speaker Number=Sarah
+ +       0.0882 * (normalized) Speaker Number=Sue
+ +      -0.0683 * (normalized) Speaker Number=Wendy
+ +      -0.2136 * (normalized) Sex=Female
+ +      -2.3757 * (normalized) Feature 0
+ +       2.8964 * (normalized) Feature 1
+ +       0.4659 * (normalized) Feature 2
+ +      -0.8128 * (normalized) Feature 3
+ +      -1.3943 * (normalized) Feature 4
+ +       0.8214 * (normalized) Feature 5
+ +      -0.185  * (normalized) Feature 6
+ +       1.0064 * (normalized) Feature 7
+ +       1.2529 * (normalized) Feature 8
+ +      -0.1458 * (normalized) Feature 9
+ -       0.8275
+
+Number of kernel evaluations: 8241 (84.104% cached)
+
+Classifier for classes: hEd, hUd
+
+BinarySMO
+
+Machine linear: showing attribute weights, not support vectors.
+
+        -0.156  * (normalized) Train or Test=Test
+ +      -0.0117 * (normalized) Speaker Number=Andrew
+ +      -0      * (normalized) Speaker Number=Bill
+ +       0.5802 * (normalized) Speaker Number=David
+ +       0.3592 * (normalized) Speaker Number=Mark
+ +      -0.2891 * (normalized) Speaker Number=Jo
+ +       0.2609 * (normalized) Speaker Number=Kate
+ +       0.0833 * (normalized) Speaker Number=Penny
+ +      -0.8269 * (normalized) Speaker Number=Rose
+ +      -0.1157 * (normalized) Speaker Number=Mike
+ +      -0.463  * (normalized) Speaker Number=Rich
+ +      -0.0015 * (normalized) Speaker Number=Sarah
+ +       0.6296 * (normalized) Speaker Number=Sue
+ +      -0.2054 * (normalized) Speaker Number=Wendy
+ +      -0.349  * (normalized) Sex=Female
+ +      -4.1324 * (normalized) Feature 0
+ +       2.4458 * (normalized) Feature 1
+ +       1.1193 * (normalized) Feature 2
+ +      -0.8552 * (normalized) Feature 3
+ +      -0.4014 * (normalized) Feature 4
+ +       0.7971 * (normalized) Feature 5
+ +       0.1727 * (normalized) Feature 6
+ +       1.6223 * (normalized) Feature 7
+ +       0.6087 * (normalized) Feature 8
+ +      -0.2596 * (normalized) Feature 9
+ -       0.2698
+
+Number of kernel evaluations: 9694 (86.108% cached)
+
+Classifier for classes: hEd, hud
+
+BinarySMO
+
+Machine linear: showing attribute weights, not support vectors.
+
+        -0.176  * (normalized) Train or Test=Test
+ +       0.1842 * (normalized) Speaker Number=Andrew
+ +       0.4324 * (normalized) Speaker Number=David
+ +       0.6054 * (normalized) Speaker Number=Mark
+ +      -0.1613 * (normalized) Speaker Number=Jo
+ +      -0.1086 * (normalized) Speaker Number=Kate
+ +      -0      * (normalized) Speaker Number=Penny
+ +      -0.7761 * (normalized) Speaker Number=Rose
+ +      -0.192  * (normalized) Speaker Number=Mike
+ +       0      * (normalized) Speaker Number=Nick
+ +      -0.5513 * (normalized) Speaker Number=Rich
+ +       0.033  * (normalized) Speaker Number=Tim
+ +       0      * (normalized) Speaker Number=Sarah
+ +       0.5521 * (normalized) Speaker Number=Sue
+ +      -0.0179 * (normalized) Speaker Number=Wendy
+ +      -0.5117 * (normalized) Sex=Female
+ +      -4.2425 * (normalized) Feature 0
+ +       2.4641 * (normalized) Feature 1
+ +       0.9018 * (normalized) Feature 2
+ +       0.4556 * (normalized) Feature 3
+ +       0.4303 * (normalized) Feature 4
+ +       1.018  * (normalized) Feature 5
+ +      -0.3948 * (normalized) Feature 6
+ +       0.2988 * (normalized) Feature 7
+ +      -0.28   * (normalized) Feature 8
+ +      -0.8849 * (normalized) Feature 9
+ +       0.065 
+
+Number of kernel evaluations: 9293 (84.322% cached)
+
+Classifier for classes: hEd, hed
+
+BinarySMO
+
+Machine linear: showing attribute weights, not support vectors.
+
+        -0.0518 * (normalized) Train or Test=Test
+ +      -0.2409 * (normalized) Speaker Number=Andrew
+ +      -0.3175 * (normalized) Speaker Number=Bill
+ +       0.3881 * (normalized) Speaker Number=David
+ +       0.0932 * (normalized) Speaker Number=Mark
+ +       0.1595 * (normalized) Speaker Number=Jo
+ +       0.8075 * (normalized) Speaker Number=Penny
+ +      -0.8381 * (normalized) Speaker Number=Rose
+ +      -0.1718 * (normalized) Speaker Number=Mike
+ +       0      * (normalized) Speaker Number=Nick
+ +      -0.4087 * (normalized) Speaker Number=Rich
+ +       0.2284 * (normalized) Speaker Number=Tim
+ +      -0.1642 * (normalized) Speaker Number=Sarah
+ +       0.3279 * (normalized) Speaker Number=Sue
+ +       0.1365 * (normalized) Speaker Number=Wendy
+ +       0.4291 * (normalized) Sex=Female
+ +      -4.7906 * (normalized) Feature 0
+ +       4.1297 * (normalized) Feature 1
+ +       1.4218 * (normalized) Feature 2
+ +      -2.9109 * (normalized) Feature 3
+ +      -2.0458 * (normalized) Feature 4
+ +       1.2349 * (normalized) Feature 5
+ +       0.899  * (normalized) Feature 6
+ +       2.365  * (normalized) Feature 7
+ +       0.8796 * (normalized) Feature 8
+ +      -0.9538 * (normalized) Feature 9
+ +       0.8265
+
+Number of kernel evaluations: 11442 (87.654% cached)
+
+Classifier for classes: hAd, hYd
+
+BinarySMO
+
+Machine linear: showing attribute weights, not support vectors.
+
+        -0.1438 * (normalized) Train or Test=Test
+ +      -0.0824 * (normalized) Speaker Number=Andrew
+ +       0      * (normalized) Speaker Number=Bill
+ +       0.2449 * (normalized) Speaker Number=David
+ +       0.0595 * (normalized) Speaker Number=Mark
+ +       0.3924 * (normalized) Speaker Number=Jo
+ +       0.1077 * (normalized) Speaker Number=Kate
+ +       0      * (normalized) Speaker Number=Penny
+ +      -0.5784 * (normalized) Speaker Number=Rose
+ +       0.2763 * (normalized) Speaker Number=Mike
+ +      -0.1917 * (normalized) Speaker Number=Nick
+ +      -0.3836 * (normalized) Speaker Number=Rich
+ +       0.212  * (normalized) Speaker Number=Tim
+ +       0.0737 * (normalized) Speaker Number=Sarah
+ +      -0.2518 * (normalized) Speaker Number=Sue
+ +       0.1212 * (normalized) Speaker Number=Wendy
+ +      -0.1351 * (normalized) Sex=Female
+ +      -3.9803 * (normalized) Feature 0
+ +       5.2514 * (normalized) Feature 1
+ +       0.8196 * (normalized) Feature 2
+ +      -1.4798 * (normalized) Feature 3
+ +      -2.4794 * (normalized) Feature 4
+ +       2.2942 * (normalized) Feature 5
+ +       1.0888 * (normalized) Feature 6
+ +       0.8435 * (normalized) Feature 7
+ +       0.7797 * (normalized) Feature 8
+ +      -0.4914 * (normalized) Feature 9
+ -       0.9443
+
+Number of kernel evaluations: 10455 (82.825% cached)
+
+Classifier for classes: hAd, had
+
+BinarySMO
+
+Machine linear: showing attribute weights, not support vectors.
+
+        -0.1402 * (normalized) Train or Test=Test
+ +      -0.0729 * (normalized) Speaker Number=Andrew
+ +       0.4206 * (normalized) Speaker Number=Bill
+ +      -0.1566 * (normalized) Speaker Number=Mark
+ +       0.6218 * (normalized) Speaker Number=Jo
+ +       0.1202 * (normalized) Speaker Number=Kate
+ +       0.2003 * (normalized) Speaker Number=Penny
+ +      -0.9932 * (normalized) Speaker Number=Rose
+ +      -0.0706 * (normalized) Speaker Number=Mike
+ +       0.3573 * (normalized) Speaker Number=Nick
+ +      -0.2573 * (normalized) Speaker Number=Rich
+ +      -0.0329 * (normalized) Speaker Number=Sarah
+ +      -0.0814 * (normalized) Speaker Number=Sue
+ +      -0.0553 * (normalized) Speaker Number=Wendy
+ +      -0.2204 * (normalized) Sex=Female
+ +      -5.439  * (normalized) Feature 0
+ +       3.4588 * (normalized) Feature 1
+ +       3.613  * (normalized) Feature 2
+ +      -1.312  * (normalized) Feature 3
+ +      -0.3721 * (normalized) Feature 4
+ +       2.9832 * (normalized) Feature 5
+ +       1.3981 * (normalized) Feature 6
+ +       2.1661 * (normalized) Feature 7
+ +       0.2671 * (normalized) Feature 8
+ +       1.1082 * (normalized) Feature 9
+ -       2.3922
+
+Number of kernel evaluations: 8982 (82.993% cached)
+
+Classifier for classes: hAd, hOd
+
+BinarySMO
+
+Machine linear: showing attribute weights, not support vectors.
+
+         0.1161 * (normalized) Train or Test=Test
+ +      -0.2948 * (normalized) Speaker Number=Andrew
+ +       0.2091 * (normalized) Speaker Number=Bill
+ +       0.0132 * (normalized) Speaker Number=David
+ +       0.3455 * (normalized) Speaker Number=Mark
+ +      -0      * (normalized) Speaker Number=Jo
+ +       0.3871 * (normalized) Speaker Number=Kate
+ +       0.192  * (normalized) Speaker Number=Penny
+ +      -0.9682 * (normalized) Speaker Number=Rose
+ +       0.6993 * (normalized) Speaker Number=Mike
+ +      -0.0139 * (normalized) Speaker Number=Nick
+ +      -0.4519 * (normalized) Speaker Number=Rich
+ +       0      * (normalized) Speaker Number=Tim
+ +       0.154  * (normalized) Speaker Number=Sarah
+ +      -0.1652 * (normalized) Speaker Number=Sue
+ +      -0.1062 * (normalized) Speaker Number=Wendy
+ +      -0.5064 * (normalized) Sex=Female
+ +      -4.5534 * (normalized) Feature 0
+ +       4.4083 * (normalized) Feature 1
+ +       2.0743 * (normalized) Feature 2
+ +       0.7462 * (normalized) Feature 3
+ +      -0.661  * (normalized) Feature 4
+ +       1.2519 * (normalized) Feature 5
+ +       0.5846 * (normalized) Feature 6
+ +       1.6199 * (normalized) Feature 7
+ +      -0.59   * (normalized) Feature 8
+ +       0.2811 * (normalized) Feature 9
+ -       2.025 
+
+Number of kernel evaluations: 12369 (89.261% cached)
+
+Classifier for classes: hAd, hod
+
+BinarySMO
+
+Machine linear: showing attribute weights, not support vectors.
+
+         0.0823 * (normalized) Train or Test=Test
+ +      -0.1018 * (normalized) Speaker Number=Andrew
+ +       0      * (normalized) Speaker Number=Bill
+ +      -0      * (normalized) Speaker Number=David
+ +       0.5616 * (normalized) Speaker Number=Mark
+ +       0.0253 * (normalized) Speaker Number=Kate
+ +       0      * (normalized) Speaker Number=Penny
+ +      -0.5674 * (normalized) Speaker Number=Rose
+ +      -0      * (normalized) Speaker Number=Nick
+ +      -0.2518 * (normalized) Speaker Number=Rich
+ +       0.4026 * (normalized) Speaker Number=Sarah
+ +      -0.148  * (normalized) Speaker Number=Sue
+ +       0.0795 * (normalized) Speaker Number=Wendy
+ +      -0.2079 * (normalized) Sex=Female
+ +      -3.6105 * (normalized) Feature 0
+ +       2.9109 * (normalized) Feature 1
+ +       0.6968 * (normalized) Feature 2
+ +      -0.043  * (normalized) Feature 3
+ +      -0.5088 * (normalized) Feature 4
+ +       0.9415 * (normalized) Feature 5
+ +      -0.2925 * (normalized) Feature 6
+ +       1.3934 * (normalized) Feature 7
+ +       0.214  * (normalized) Feature 8
+ +      -0.0952 * (normalized) Feature 9
+ -       1.0288
+
+Number of kernel evaluations: 9046 (83.148% cached)
+
+Classifier for classes: hAd, hUd
+
+BinarySMO
+
+Machine linear: showing attribute weights, not support vectors.
+
+        -0.0322 * (normalized) Train or Test=Test
+ +       0.0824 * (normalized) Speaker Number=Andrew
+ +       0.3663 * (normalized) Speaker Number=David
+ +       0.3271 * (normalized) Speaker Number=Mark
+ +       0      * (normalized) Speaker Number=Jo
+ +       0.1733 * (normalized) Speaker Number=Kate
+ +      -0      * (normalized) Speaker Number=Penny
+ +      -0.917  * (normalized) Speaker Number=Rose
+ +      -0.0071 * (normalized) Speaker Number=Mike
+ +      -0.3248 * (normalized) Speaker Number=Rich
+ +       0      * (normalized) Speaker Number=Tim
+ +       0.3557 * (normalized) Speaker Number=Sarah
+ +      -0.0015 * (normalized) Speaker Number=Sue
+ +      -0.0545 * (normalized) Speaker Number=Wendy
+ +      -0.4439 * (normalized) Sex=Female
+ +      -4.6521 * (normalized) Feature 0
+ +       1.8215 * (normalized) Feature 1
+ +       1.6165 * (normalized) Feature 2
+ +       0.5646 * (normalized) Feature 3
+ +       1.0775 * (normalized) Feature 4
+ +       0.9305 * (normalized) Feature 5
+ +      -0.4335 * (normalized) Feature 6
+ +       1.369  * (normalized) Feature 7
+ +      -0.0868 * (normalized) Feature 8
+ +       0.3651 * (normalized) Feature 9
+ -       0.992 
+
+Number of kernel evaluations: 9474 (87.308% cached)
+
+Classifier for classes: hAd, hud
+
+BinarySMO
+
+Machine linear: showing attribute weights, not support vectors.
+
+        -0.0745 * (normalized) Train or Test=Test
+ +       0.1222 * (normalized) Speaker Number=Andrew
+ +       0      * (normalized) Speaker Number=Bill
+ +       0.369  * (normalized) Speaker Number=David
+ +       0.148  * (normalized) Speaker Number=Mark
+ +      -0      * (normalized) Speaker Number=Jo
+ +      -0.0156 * (normalized) Speaker Number=Kate
+ +      -0      * (normalized) Speaker Number=Penny
+ +      -0.5491 * (normalized) Speaker Number=Rose
+ +      -0      * (normalized) Speaker Number=Mike
+ +       0      * (normalized) Speaker Number=Nick
+ +      -0.3211 * (normalized) Speaker Number=Rich
+ +      -0      * (normalized) Speaker Number=Tim
+ +       0.0879 * (normalized) Speaker Number=Sarah
+ +       0.0268 * (normalized) Speaker Number=Sue
+ +       0.1319 * (normalized) Speaker Number=Wendy
+ +      -0.3181 * (normalized) Sex=Female
+ +      -3.7762 * (normalized) Feature 0
+ +       1.6506 * (normalized) Feature 1
+ +       0.9231 * (normalized) Feature 2
+ +       0.8137 * (normalized) Feature 3
+ +       1.5896 * (normalized) Feature 4
+ +       0.7802 * (normalized) Feature 5
+ +       0.1039 * (normalized) Feature 6
+ +       0.4273 * (normalized) Feature 7
+ +       0.1634 * (normalized) Feature 8
+ +      -0.2363 * (normalized) Feature 9
+ -       1.2499
+
+Number of kernel evaluations: 7624 (82.582% cached)
+
+Classifier for classes: hAd, hed
+
+BinarySMO
+
+Machine linear: showing attribute weights, not support vectors.
+
+        -0.3023 * (normalized) Train or Test=Test
+ +      -0.2173 * (normalized) Speaker Number=Andrew
+ +       0.3145 * (normalized) Speaker Number=Bill
+ +      -0      * (normalized) Speaker Number=David
+ +       0.1557 * (normalized) Speaker Number=Mark
+ +       0.5917 * (normalized) Speaker Number=Jo
+ +       0.0705 * (normalized) Speaker Number=Kate
+ +       0.6523 * (normalized) Speaker Number=Penny
+ +      -1.265  * (normalized) Speaker Number=Rose
+ +       0.1291 * (normalized) Speaker Number=Mike
+ +       0      * (normalized) Speaker Number=Nick
+ +      -0.5126 * (normalized) Speaker Number=Rich
+ +       0.1582 * (normalized) Speaker Number=Tim
+ +       0.2044 * (normalized) Speaker Number=Sarah
+ +      -0.2069 * (normalized) Speaker Number=Sue
+ +      -0.0746 * (normalized) Speaker Number=Wendy
+ +      -0.0277 * (normalized) Sex=Female
+ +      -5.5609 * (normalized) Feature 0
+ +       0.6615 * (normalized) Feature 1
+ +       2.6543 * (normalized) Feature 2
+ +       0.7157 * (normalized) Feature 3
+ +       1.685  * (normalized) Feature 4
+ +       2.2765 * (normalized) Feature 5
+ +      -1.2638 * (normalized) Feature 6
+ +       2.4473 * (normalized) Feature 7
+ +      -1.0499 * (normalized) Feature 8
+ +      -0.0851 * (normalized) Feature 9
+ -       0.1638
+
+Number of kernel evaluations: 10532 (89.388% cached)
+
+Classifier for classes: hYd, had
+
+BinarySMO
+
+Machine linear: showing attribute weights, not support vectors.
+
+         0.0026 * (normalized) Train or Test=Test
+ +       0.1383 * (normalized) Speaker Number=Andrew
+ +      -0.0751 * (normalized) Speaker Number=Bill
+ +      -0.0579 * (normalized) Speaker Number=David
+ +      -0.2962 * (normalized) Speaker Number=Mark
+ +      -0.6488 * (normalized) Speaker Number=Jo
+ +       0.5593 * (normalized) Speaker Number=Kate
+ +       0.6593 * (normalized) Speaker Number=Penny
+ +      -0.2815 * (normalized) Speaker Number=Rose
+ +       0.3597 * (normalized) Speaker Number=Mike
+ +       0.2542 * (normalized) Speaker Number=Nick
+ +       0.3768 * (normalized) Speaker Number=Rich
+ +      -0.3226 * (normalized) Speaker Number=Tim
+ +       0      * (normalized) Speaker Number=Sarah
+ +      -0.6575 * (normalized) Speaker Number=Sue
+ +      -0.008  * (normalized) Speaker Number=Wendy
+ +      -0.3772 * (normalized) Sex=Female
+ +       1.4429 * (normalized) Feature 0
+ +      -4.6707 * (normalized) Feature 1
+ +       1.9575 * (normalized) Feature 2
+ +       1.5148 * (normalized) Feature 3
+ +       4.012  * (normalized) Feature 4
+ +      -0.5359 * (normalized) Feature 5
+ +      -0.1162 * (normalized) Feature 6
+ +      -1.0257 * (normalized) Feature 7
+ +      -1.2266 * (normalized) Feature 8
+ +       2.2887 * (normalized) Feature 9
+ -       0.9883
+
+Number of kernel evaluations: 9821 (79.684% cached)
+
+Classifier for classes: hYd, hOd
+
+BinarySMO
+
+Machine linear: showing attribute weights, not support vectors.
+
+         0.5058 * (normalized) Train or Test=Test
+ +       0.6746 * (normalized) Speaker Number=Andrew
+ +       0.5386 * (normalized) Speaker Number=Bill
+ +      -0.1694 * (normalized) Speaker Number=David
+ +      -0.7595 * (normalized) Speaker Number=Mark
+ +      -0.4797 * (normalized) Speaker Number=Jo
+ +       0.1222 * (normalized) Speaker Number=Kate
+ +      -0      * (normalized) Speaker Number=Penny
+ +      -0.4326 * (normalized) Speaker Number=Rose
+ +      -1      * (normalized) Speaker Number=Mike
+ +       0.8356 * (normalized) Speaker Number=Nick
+ +      -0.2148 * (normalized) Speaker Number=Rich
+ +      -0      * (normalized) Speaker Number=Tim
+ +       0.7366 * (normalized) Speaker Number=Sarah
+ +       0.1485 * (normalized) Speaker Number=Sue
+ +      -0      * (normalized) Speaker Number=Wendy
+ +       0.095  * (normalized) Sex=Female
+ +      -6.1066 * (normalized) Feature 0
+ +       1.4045 * (normalized) Feature 1
+ +       3.4302 * (normalized) Feature 2
+ +       1.8667 * (normalized) Feature 3
+ +       1.8543 * (normalized) Feature 4
+ +      -0.7578 * (normalized) Feature 5
+ +       0.7432 * (normalized) Feature 6
+ +       2.6531 * (normalized) Feature 7
+ +       0.1918 * (normalized) Feature 8
+ +       1.163  * (normalized) Feature 9
+ -       3.1825
+
+Number of kernel evaluations: 9823 (80.723% cached)
+
+Classifier for classes: hYd, hod
+
+BinarySMO
+
+Machine linear: showing attribute weights, not support vectors.
+
+         0.1112 * (normalized) Train or Test=Test
+ +       0.1821 * (normalized) Speaker Number=Andrew
+ +      -0.0138 * (normalized) Speaker Number=Bill
+ +       0.0357 * (normalized) Speaker Number=David
+ +       0.487  * (normalized) Speaker Number=Mark
+ +       0      * (normalized) Speaker Number=Jo
+ +      -0.0738 * (normalized) Speaker Number=Kate
+ +      -0.006  * (normalized) Speaker Number=Penny
+ +      -0.7225 * (normalized) Speaker Number=Rose
+ +      -0.6405 * (normalized) Speaker Number=Mike
+ +       0      * (normalized) Speaker Number=Nick
+ +      -0.3799 * (normalized) Speaker Number=Rich
+ +       0.0966 * (normalized) Speaker Number=Tim
+ +       0.7748 * (normalized) Speaker Number=Sarah
+ +       0.1957 * (normalized) Speaker Number=Sue
+ +       0.0645 * (normalized) Speaker Number=Wendy
+ +       0.2328 * (normalized) Sex=Female
+ +      -5.7227 * (normalized) Feature 0
+ +       2.569  * (normalized) Feature 1
+ +       0.6142 * (normalized) Feature 2
+ +       0.2539 * (normalized) Feature 3
+ +       0.1699 * (normalized) Feature 4
+ +       0.4632 * (normalized) Feature 5
+ +      -0.0321 * (normalized) Feature 6
+ +       2.1195 * (normalized) Feature 7
+ +       1.1307 * (normalized) Feature 8
+ +       0.16   * (normalized) Feature 9
+ -       1.8293
+
+Number of kernel evaluations: 10778 (89.311% cached)
+
+Classifier for classes: hYd, hUd
+
+BinarySMO
+
+Machine linear: showing attribute weights, not support vectors.
+
+        -0.0192 * (normalized) Train or Test=Test
+ +      -0.0879 * (normalized) Speaker Number=Andrew
+ +       0      * (normalized) Speaker Number=Bill
+ +      -0.0147 * (normalized) Speaker Number=David
+ +       0.4005 * (normalized) Speaker Number=Mark
+ +       0      * (normalized) Speaker Number=Jo
+ +       0      * (normalized) Speaker Number=Kate
+ +      -0.2788 * (normalized) Speaker Number=Rose
+ +      -0.3152 * (normalized) Speaker Number=Mike
+ +       0      * (normalized) Speaker Number=Nick
+ +       0.0182 * (normalized) Speaker Number=Rich
+ +       0.0551 * (normalized) Speaker Number=Tim
+ +       0.6704 * (normalized) Speaker Number=Sarah
+ +      -0.2319 * (normalized) Speaker Number=Sue
+ +      -0.2158 * (normalized) Speaker Number=Wendy
+ +      -0.056  * (normalized) Sex=Female
+ +      -6.1096 * (normalized) Feature 0
+ +      -0.3626 * (normalized) Feature 1
+ +       1.0857 * (normalized) Feature 2
+ +       1.4658 * (normalized) Feature 3
+ +       1.7307 * (normalized) Feature 4
+ +       1.5423 * (normalized) Feature 5
+ +       0.0336 * (normalized) Feature 6
+ +       1.1035 * (normalized) Feature 7
+ +       0.3192 * (normalized) Feature 8
+ +       0.4922 * (normalized) Feature 9
+ -       0.6796
+
+Number of kernel evaluations: 11711 (87.885% cached)
+
+Classifier for classes: hYd, hud
+
+BinarySMO
+
+Machine linear: showing attribute weights, not support vectors.
+
+        -0.1992 * (normalized) Train or Test=Test
+ +       0.109  * (normalized) Speaker Number=Andrew
+ +       0      * (normalized) Speaker Number=Bill
+ +       0.0827 * (normalized) Speaker Number=David
+ +       0.187  * (normalized) Speaker Number=Mark
+ +      -0      * (normalized) Speaker Number=Jo
+ +      -0      * (normalized) Speaker Number=Kate
+ +      -0.1795 * (normalized) Speaker Number=Rose
+ +      -0.3656 * (normalized) Speaker Number=Mike
+ +       0      * (normalized) Speaker Number=Nick
+ +      -0.0396 * (normalized) Speaker Number=Rich
+ +       0.0366 * (normalized) Speaker Number=Tim
+ +       0.2845 * (normalized) Speaker Number=Sarah
+ +       0      * (normalized) Speaker Number=Sue
+ +      -0.1151 * (normalized) Speaker Number=Wendy
+ +      -0.01   * (normalized) Sex=Female
+ +      -4.1801 * (normalized) Feature 0
+ +       0.3955 * (normalized) Feature 1
+ +       0.6906 * (normalized) Feature 2
+ +       1.1499 * (normalized) Feature 3
+ +       1.8173 * (normalized) Feature 4
+ +       0.62   * (normalized) Feature 5
+ +      -0.3047 * (normalized) Feature 6
+ +       0.2924 * (normalized) Feature 7
+ +       0.278  * (normalized) Feature 8
+ +      -0.2977 * (normalized) Feature 9
+ -       0.4965
+
+Number of kernel evaluations: 10423 (85.652% cached)
+
+Classifier for classes: hYd, hed
+
+BinarySMO
+
+Machine linear: showing attribute weights, not support vectors.
+
+        -0.2211 * (normalized) Train or Test=Test
+ +       0.2499 * (normalized) Speaker Number=Andrew
+ +       0.3346 * (normalized) Speaker Number=Bill
+ +      -0.0638 * (normalized) Speaker Number=David
+ +       0.0023 * (normalized) Speaker Number=Mark
+ +      -0.4148 * (normalized) Speaker Number=Jo
+ +       0.194  * (normalized) Speaker Number=Kate
+ +       0.288  * (normalized) Speaker Number=Penny
+ +      -0.3689 * (normalized) Speaker Number=Rose
+ +       0.1556 * (normalized) Speaker Number=Mike
+ +      -0      * (normalized) Speaker Number=Nick
+ +      -0.251  * (normalized) Speaker Number=Rich
+ +      -0.3977 * (normalized) Speaker Number=Tim
+ +       0.5779 * (normalized) Speaker Number=Sarah
+ +       0.0197 * (normalized) Speaker Number=Sue
+ +      -0.3255 * (normalized) Speaker Number=Wendy
+ +      -0.0297 * (normalized) Sex=Female
+ +      -2.7473 * (normalized) Feature 0
+ +      -4.0791 * (normalized) Feature 1
+ +       1.1369 * (normalized) Feature 2
+ +       1.6757 * (normalized) Feature 3
+ +       4.4433 * (normalized) Feature 4
+ +       1.517  * (normalized) Feature 5
+ +      -1.2088 * (normalized) Feature 6
+ +       0.6478 * (normalized) Feature 7
+ +      -1.4649 * (normalized) Feature 8
+ +      -0.4003 * (normalized) Feature 9
+ +       1.1569
+
+Number of kernel evaluations: 9858 (88.161% cached)
+
+Classifier for classes: had, hOd
+
+BinarySMO
+
+Machine linear: showing attribute weights, not support vectors.
+
+         0.1902 * (normalized) Train or Test=Test
+ +      -0.4959 * (normalized) Speaker Number=Andrew
+ +       0.367  * (normalized) Speaker Number=Bill
+ +       0.1973 * (normalized) Speaker Number=David
+ +       0.2812 * (normalized) Speaker Number=Mark
+ +       0.2038 * (normalized) Speaker Number=Kate
+ +      -0.0015 * (normalized) Speaker Number=Penny
+ +      -0.7421 * (normalized) Speaker Number=Rose
+ +      -0      * (normalized) Speaker Number=Mike
+ +      -0.4745 * (normalized) Speaker Number=Nick
+ +      -0.2736 * (normalized) Speaker Number=Rich
+ +       0.3761 * (normalized) Speaker Number=Tim
+ +       0.0809 * (normalized) Speaker Number=Sarah
+ +       0.4796 * (normalized) Speaker Number=Sue
+ +       0.0017 * (normalized) Speaker Number=Wendy
+ +       0.0224 * (normalized) Sex=Female
+ +      -5.3755 * (normalized) Feature 0
+ +       4.7252 * (normalized) Feature 1
+ +       0.7726 * (normalized) Feature 2
+ +       0.006  * (normalized) Feature 3
+ +      -1.9753 * (normalized) Feature 4
+ +       0.7367 * (normalized) Feature 5
+ +       0.3985 * (normalized) Feature 6
+ +       2.9547 * (normalized) Feature 7
+ +       0.4827 * (normalized) Feature 8
+ +      -0.114  * (normalized) Feature 9
+ -       1.8427
+
+Number of kernel evaluations: 10438 (84.314% cached)
+
+Classifier for classes: had, hod
+
+BinarySMO
+
+Machine linear: showing attribute weights, not support vectors.
+
+         0.0844 * (normalized) Train or Test=Test
+ +      -0.217  * (normalized) Speaker Number=Andrew
+ +       0.1624 * (normalized) Speaker Number=Bill
+ +       0.0084 * (normalized) Speaker Number=David
+ +       0.3945 * (normalized) Speaker Number=Mark
+ +      -0.124  * (normalized) Speaker Number=Kate
+ +       0.0643 * (normalized) Speaker Number=Penny
+ +      -0.3731 * (normalized) Speaker Number=Rose
+ +      -0.3512 * (normalized) Speaker Number=Mike
+ +      -0.0525 * (normalized) Speaker Number=Nick
+ +      -0.2658 * (normalized) Speaker Number=Rich
+ +       0.1449 * (normalized) Speaker Number=Tim
+ +       0.2987 * (normalized) Speaker Number=Sarah
+ +       0.196  * (normalized) Speaker Number=Sue
+ +       0.1144 * (normalized) Speaker Number=Wendy
+ +       0.1763 * (normalized) Sex=Female
+ +      -3.9494 * (normalized) Feature 0
+ +       2.8953 * (normalized) Feature 1
+ +       0.0854 * (normalized) Feature 2
+ +      -0.1801 * (normalized) Feature 3
+ +      -1.0853 * (normalized) Feature 4
+ +       1.0099 * (normalized) Feature 5
+ +      -0.5169 * (normalized) Feature 6
+ +       1.9287 * (normalized) Feature 7
+ +       1.2391 * (normalized) Feature 8
+ +      -0.2967 * (normalized) Feature 9
+ -       1.4069
+
+Number of kernel evaluations: 10771 (85.398% cached)
+
+Classifier for classes: had, hUd
+
+BinarySMO
+
+Machine linear: showing attribute weights, not support vectors.
+
+        -0.0877 * (normalized) Train or Test=Test
+ +       0.0731 * (normalized) Speaker Number=Andrew
+ +       0      * (normalized) Speaker Number=Bill
+ +       0.2121 * (normalized) Speaker Number=David
+ +       0.2475 * (normalized) Speaker Number=Mark
+ +       0.0991 * (normalized) Speaker Number=Jo
+ +       0.0162 * (normalized) Speaker Number=Kate
+ +       0.1771 * (normalized) Speaker Number=Penny
+ +      -0.7374 * (normalized) Speaker Number=Rose
+ +      -0.2318 * (normalized) Speaker Number=Mike
+ +      -0.0896 * (normalized) Speaker Number=Nick
+ +      -0.0749 * (normalized) Speaker Number=Rich
+ +       0      * (normalized) Speaker Number=Tim
+ +       0.3086 * (normalized) Speaker Number=Sarah
+ +      -0      * (normalized) Speaker Number=Sue
+ +       0      * (normalized) Speaker Number=Wendy
+ +      -0.1364 * (normalized) Sex=Female
+ +      -5.8256 * (normalized) Feature 0
+ +       1.6747 * (normalized) Feature 1
+ +       0.9558 * (normalized) Feature 2
+ +       0.3705 * (normalized) Feature 3
+ +       0.5542 * (normalized) Feature 4
+ +       1.1258 * (normalized) Feature 5
+ +      -0.8498 * (normalized) Feature 6
+ +       1.6459 * (normalized) Feature 7
+ +       0.6529 * (normalized) Feature 8
+ +       0.5048 * (normalized) Feature 9
+ -       0.6543
+
+Number of kernel evaluations: 12277 (87.309% cached)
+
+Classifier for classes: had, hud
+
+BinarySMO
+
+Machine linear: showing attribute weights, not support vectors.
+
+        -0.0892 * (normalized) Train or Test=Test
+ +       0.0381 * (normalized) Speaker Number=Andrew
+ +       0      * (normalized) Speaker Number=Bill
+ +       0.2728 * (normalized) Speaker Number=David
+ +       0.299  * (normalized) Speaker Number=Mark
+ +      -0.1856 * (normalized) Speaker Number=Jo
+ +      -0.1063 * (normalized) Speaker Number=Kate
+ +      -0.2287 * (normalized) Speaker Number=Rose
+ +      -0.1752 * (normalized) Speaker Number=Mike
+ +      -0.1293 * (normalized) Speaker Number=Nick
+ +      -0.0466 * (normalized) Speaker Number=Rich
+ +       0.2449 * (normalized) Speaker Number=Sarah
+ +      -0.1061 * (normalized) Speaker Number=Sue
+ +       0.1231 * (normalized) Speaker Number=Wendy
+ +      -0.2588 * (normalized) Sex=Female
+ +      -4.4152 * (normalized) Feature 0
+ +       1.3411 * (normalized) Feature 1
+ +       0.4801 * (normalized) Feature 2
+ +       1.2847 * (normalized) Feature 3
+ +       1.5905 * (normalized) Feature 4
+ +       0.761  * (normalized) Feature 5
+ +      -0.5747 * (normalized) Feature 6
+ +       0.5023 * (normalized) Feature 7
+ +       0.3993 * (normalized) Feature 8
+ +      -0.4925 * (normalized) Feature 9
+ -       0.8003
+
+Number of kernel evaluations: 9965 (85.739% cached)
+
+Classifier for classes: had, hed
+
+BinarySMO
+
+Machine linear: showing attribute weights, not support vectors.
+
+        -0.3398 * (normalized) Train or Test=Test
+ +       0.1816 * (normalized) Speaker Number=Andrew
+ +       0.8661 * (normalized) Speaker Number=Bill
+ +      -0.1923 * (normalized) Speaker Number=David
+ +       0.1123 * (normalized) Speaker Number=Mark
+ +       0.2042 * (normalized) Speaker Number=Jo
+ +      -0.2017 * (normalized) Speaker Number=Kate
+ +       0.2155 * (normalized) Speaker Number=Penny
+ +      -0.846  * (normalized) Speaker Number=Rose
+ +       0      * (normalized) Speaker Number=Mike
+ +      -0.3949 * (normalized) Speaker Number=Nick
+ +      -0.4265 * (normalized) Speaker Number=Rich
+ +      -0.0505 * (normalized) Speaker Number=Tim
+ +       0.3275 * (normalized) Speaker Number=Sarah
+ +       0      * (normalized) Speaker Number=Sue
+ +       0.2046 * (normalized) Speaker Number=Wendy
+ +      -0.0957 * (normalized) Sex=Female
+ +      -5.0295 * (normalized) Feature 0
+ +      -1.8398 * (normalized) Feature 1
+ +       0.0094 * (normalized) Feature 2
+ +       1.1628 * (normalized) Feature 3
+ +       2.9824 * (normalized) Feature 4
+ +       1.8071 * (normalized) Feature 5
+ +      -1.6931 * (normalized) Feature 6
+ +       2.1814 * (normalized) Feature 7
+ +      -1.8676 * (normalized) Feature 8
+ +      -1.1445 * (normalized) Feature 9
+ +       2.3595
+
+Number of kernel evaluations: 8119 (85.05% cached)
+
+Classifier for classes: hOd, hod
+
+BinarySMO
+
+Machine linear: showing attribute weights, not support vectors.
+
+         0.149  * (normalized) Train or Test=Test
+ +      -0.0588 * (normalized) Speaker Number=Andrew
+ +      -0.2425 * (normalized) Speaker Number=Bill
+ +       0.1635 * (normalized) Speaker Number=David
+ +       1.2626 * (normalized) Speaker Number=Mark
+ +      -0.6287 * (normalized) Speaker Number=Jo
+ +      -0.1673 * (normalized) Speaker Number=Kate
+ +       0.1262 * (normalized) Speaker Number=Penny
+ +      -0.604  * (normalized) Speaker Number=Rose
+ +      -0      * (normalized) Speaker Number=Mike
+ +      -0.3526 * (normalized) Speaker Number=Nick
+ +      -0.7754 * (normalized) Speaker Number=Rich
+ +      -0.1524 * (normalized) Speaker Number=Tim
+ +       0.6985 * (normalized) Speaker Number=Sarah
+ +       0.5593 * (normalized) Speaker Number=Sue
+ +       0.1716 * (normalized) Speaker Number=Wendy
+ +       0.1556 * (normalized) Sex=Female
+ +      -6.319  * (normalized) Feature 0
+ +       3.4411 * (normalized) Feature 1
+ +       0.0619 * (normalized) Feature 2
+ +      -0.1785 * (normalized) Feature 3
+ +      -0.1879 * (normalized) Feature 4
+ +       0.6967 * (normalized) Feature 5
+ +       0.291  * (normalized) Feature 6
+ +       2.8547 * (normalized) Feature 7
+ +       1.9573 * (normalized) Feature 8
+ +       0.5874 * (normalized) Feature 9
+ -       3.438 
+
+Number of kernel evaluations: 12047 (86.366% cached)
+
+Classifier for classes: hOd, hUd
+
+BinarySMO
+
+Machine linear: showing attribute weights, not support vectors.
+
+         0.0537 * (normalized) Train or Test=Test
+ +      -0.1688 * (normalized) Speaker Number=Andrew
+ +       0.2476 * (normalized) Speaker Number=Bill
+ +       0.5697 * (normalized) Speaker Number=David
+ +       0.1034 * (normalized) Speaker Number=Mark
+ +      -0.1501 * (normalized) Speaker Number=Jo
+ +      -0.1823 * (normalized) Speaker Number=Kate
+ +       0      * (normalized) Speaker Number=Penny
+ +      -0.4733 * (normalized) Speaker Number=Rose
+ +       0.1627 * (normalized) Speaker Number=Mike
+ +      -0.4258 * (normalized) Speaker Number=Nick
+ +      -0.0089 * (normalized) Speaker Number=Rich
+ +      -0.1499 * (normalized) Speaker Number=Tim
+ +       0.61   * (normalized) Speaker Number=Sarah
+ +       0      * (normalized) Speaker Number=Sue
+ +      -0.1343 * (normalized) Speaker Number=Wendy
+ +      -0.33   * (normalized) Sex=Female
+ +      -7.0452 * (normalized) Feature 0
+ +      -0.6459 * (normalized) Feature 1
+ +       0.7738 * (normalized) Feature 2
+ +       0.8963 * (normalized) Feature 3
+ +       3.1157 * (normalized) Feature 4
+ +       2.2458 * (normalized) Feature 5
+ +       0.0854 * (normalized) Feature 6
+ +       1.4144 * (normalized) Feature 7
+ +       0.2836 * (normalized) Feature 8
+ +      -0.2386 * (normalized) Feature 9
+ -       0.6964
+
+Number of kernel evaluations: 13055 (90.277% cached)
+
+Classifier for classes: hOd, hud
+
+BinarySMO
+
+Machine linear: showing attribute weights, not support vectors.
+
+        -0.0528 * (normalized) Train or Test=Test
+ +       0.0609 * (normalized) Speaker Number=Andrew
+ +       0.0743 * (normalized) Speaker Number=Bill
+ +       0.404  * (normalized) Speaker Number=David
+ +      -0.1428 * (normalized) Speaker Number=Mark
+ +      -0.107  * (normalized) Speaker Number=Jo
+ +      -0.317  * (normalized) Speaker Number=Kate
+ +       0.0805 * (normalized) Speaker Number=Rose
+ +      -0.1602 * (normalized) Speaker Number=Mike
+ +       0.015  * (normalized) Speaker Number=Nick
+ +       0.0402 * (normalized) Speaker Number=Rich
+ +      -0.2084 * (normalized) Speaker Number=Tim
+ +       0.5943 * (normalized) Speaker Number=Sarah
+ +      -0.3494 * (normalized) Speaker Number=Sue
+ +       0.0157 * (normalized) Speaker Number=Wendy
+ +      -0.0829 * (normalized) Sex=Female
+ +      -4.5133 * (normalized) Feature 0
+ +      -0.2117 * (normalized) Feature 1
+ +       0.6438 * (normalized) Feature 2
+ +       1.2273 * (normalized) Feature 3
+ +       2.9039 * (normalized) Feature 4
+ +       1.0919 * (normalized) Feature 5
+ +      -0.1443 * (normalized) Feature 6
+ +      -0.0265 * (normalized) Feature 7
+ +       0.6167 * (normalized) Feature 8
+ +      -0.628  * (normalized) Feature 9
+ -       1.0083
+
+Number of kernel evaluations: 10797 (90.923% cached)
+
+Classifier for classes: hOd, hed
+
+BinarySMO
+
+Machine linear: showing attribute weights, not support vectors.
+
+        -0.0762 * (normalized) Train or Test=Test
+ +       0.2083 * (normalized) Speaker Number=Andrew
+ +       0.3503 * (normalized) Speaker Number=Bill
+ +      -0.1002 * (normalized) Speaker Number=David
+ +      -0      * (normalized) Speaker Number=Mark
+ +      -0.1484 * (normalized) Speaker Number=Jo
+ +      -0.2899 * (normalized) Speaker Number=Kate
+ +       0.2063 * (normalized) Speaker Number=Penny
+ +      -0.1503 * (normalized) Speaker Number=Rose
+ +      -0.2266 * (normalized) Speaker Number=Mike
+ +       0.0947 * (normalized) Speaker Number=Nick
+ +      -0      * (normalized) Speaker Number=Rich
+ +      -0.3814 * (normalized) Speaker Number=Tim
+ +       0.4644 * (normalized) Speaker Number=Sarah
+ +      -0.0273 * (normalized) Speaker Number=Wendy
+ +       0.0548 * (normalized) Sex=Female
+ +      -0.6828 * (normalized) Feature 0
+ +      -5.5688 * (normalized) Feature 1
+ +      -0.2044 * (normalized) Feature 2
+ +       1.2797 * (normalized) Feature 3
+ +       3.9527 * (normalized) Feature 4
+ +       1.1372 * (normalized) Feature 5
+ +      -1.1124 * (normalized) Feature 6
+ +      -0.2926 * (normalized) Feature 7
+ +      -0.6677 * (normalized) Feature 8
+ +      -0.8894 * (normalized) Feature 9
+ +       2.327 
+
+Number of kernel evaluations: 11913 (86.479% cached)
+
+Classifier for classes: hod, hUd
+
+BinarySMO
+
+Machine linear: showing attribute weights, not support vectors.
+
+        -0.044  * (normalized) Train or Test=Test
+ +      -0.5461 * (normalized) Speaker Number=Andrew
+ +       0.4935 * (normalized) Speaker Number=Bill
+ +       0.217  * (normalized) Speaker Number=David
+ +      -0.5928 * (normalized) Speaker Number=Mark
+ +       0.0563 * (normalized) Speaker Number=Jo
+ +       0.5404 * (normalized) Speaker Number=Kate
+ +      -0.353  * (normalized) Speaker Number=Penny
+ +       0.2286 * (normalized) Speaker Number=Rose
+ +       0.2045 * (normalized) Speaker Number=Mike
+ +       0.2483 * (normalized) Speaker Number=Nick
+ +       0.627  * (normalized) Speaker Number=Rich
+ +       0.0052 * (normalized) Speaker Number=Sarah
+ +      -0.7342 * (normalized) Speaker Number=Sue
+ +      -0.3947 * (normalized) Speaker Number=Wendy
+ +      -0.6514 * (normalized) Sex=Female
+ +      -0.4829 * (normalized) Feature 0
+ +      -3.9896 * (normalized) Feature 1
+ +       0.99   * (normalized) Feature 2
+ +       1.7121 * (normalized) Feature 3
+ +       3.5517 * (normalized) Feature 4
+ +       2.0047 * (normalized) Feature 5
+ +      -0.5224 * (normalized) Feature 6
+ +      -1.4842 * (normalized) Feature 7
+ +      -1.919  * (normalized) Feature 8
+ +      -0.5277 * (normalized) Feature 9
+ +       2.0825
+
+Number of kernel evaluations: 10127 (84.89% cached)
+
+Classifier for classes: hod, hud
+
+BinarySMO
+
+Machine linear: showing attribute weights, not support vectors.
+
+        -0.0192 * (normalized) Train or Test=Test
+ +      -0.1843 * (normalized) Speaker Number=Andrew
+ +       0.3165 * (normalized) Speaker Number=Bill
+ +       0.6034 * (normalized) Speaker Number=David
+ +      -0.3087 * (normalized) Speaker Number=Mark
+ +       0      * (normalized) Speaker Number=Jo
+ +       0.0551 * (normalized) Speaker Number=Kate
+ +      -0.586  * (normalized) Speaker Number=Penny
+ +       0.1233 * (normalized) Speaker Number=Rose
+ +       0      * (normalized) Speaker Number=Mike
+ +       0.3942 * (normalized) Speaker Number=Nick
+ +       0.3082 * (normalized) Speaker Number=Rich
+ +      -0.68   * (normalized) Speaker Number=Tim
+ +       0.6923 * (normalized) Speaker Number=Sarah
+ +      -0.4962 * (normalized) Speaker Number=Sue
+ +      -0.2378 * (normalized) Speaker Number=Wendy
+ +      -0.4493 * (normalized) Sex=Female
+ +      -3.9749 * (normalized) Feature 0
+ +      -2.0252 * (normalized) Feature 1
+ +       0.8364 * (normalized) Feature 2
+ +       1.1854 * (normalized) Feature 3
+ +       3.4871 * (normalized) Feature 4
+ +       0.9596 * (normalized) Feature 5
+ +      -0.2177 * (normalized) Feature 6
+ +      -1.3733 * (normalized) Feature 7
+ +      -0.3241 * (normalized) Feature 8
+ +      -1.2022 * (normalized) Feature 9
+ +       1.2062
+
+Number of kernel evaluations: 9886 (88.243% cached)
+
+Classifier for classes: hod, hed
+
+BinarySMO
+
+Machine linear: showing attribute weights, not support vectors.
+
+        -0.0491 * (normalized) Train or Test=Test
+ +       0.0739 * (normalized) Speaker Number=Andrew
+ +       0.3806 * (normalized) Speaker Number=David
+ +      -0.6056 * (normalized) Speaker Number=Mark
+ +      -0      * (normalized) Speaker Number=Jo
+ +       0.2053 * (normalized) Speaker Number=Kate
+ +      -0.0438 * (normalized) Speaker Number=Penny
+ +       0.0386 * (normalized) Speaker Number=Rose
+ +       0.2842 * (normalized) Speaker Number=Mike
+ +       0.3027 * (normalized) Speaker Number=Nick
+ +       0      * (normalized) Speaker Number=Rich
+ +      -0.1663 * (normalized) Speaker Number=Tim
+ +      -0.0196 * (normalized) Speaker Number=Sarah
+ +      -0.1925 * (normalized) Speaker Number=Sue
+ +      -0.2576 * (normalized) Speaker Number=Wendy
+ +      -0.2695 * (normalized) Sex=Female
+ +       2.8052 * (normalized) Feature 0
+ +      -3.8152 * (normalized) Feature 1
+ +       0.03   * (normalized) Feature 2
+ +       0.4466 * (normalized) Feature 3
+ +       2.4936 * (normalized) Feature 4
+ +      -0.0236 * (normalized) Feature 5
+ +      -0.6324 * (normalized) Feature 6
+ +      -1.1655 * (normalized) Feature 7
+ +      -1.4608 * (normalized) Feature 8
+ +       0.2235 * (normalized) Feature 9
+ +       1.7529
+
+Number of kernel evaluations: 9312 (86.441% cached)
+
+Classifier for classes: hUd, hud
+
+BinarySMO
+
+Machine linear: showing attribute weights, not support vectors.
+
+        -0.4621 * (normalized) Train or Test=Test
+ +       0.4225 * (normalized) Speaker Number=Andrew
+ +      -0.1668 * (normalized) Speaker Number=Bill
+ +      -0.5095 * (normalized) Speaker Number=David
+ +       0.7178 * (normalized) Speaker Number=Mark
+ +      -0.1352 * (normalized) Speaker Number=Jo
+ +      -0.3442 * (normalized) Speaker Number=Kate
+ +       0.2765 * (normalized) Speaker Number=Penny
+ +       0.2009 * (normalized) Speaker Number=Rose
+ +      -0.824  * (normalized) Speaker Number=Mike
+ +      -0.025  * (normalized) Speaker Number=Nick
+ +       0.2552 * (normalized) Speaker Number=Rich
+ +       0.405  * (normalized) Speaker Number=Tim
+ +       0.6837 * (normalized) Speaker Number=Sarah
+ +      -0.8322 * (normalized) Speaker Number=Sue
+ +      -0.1249 * (normalized) Speaker Number=Wendy
+ +      -0.2753 * (normalized) Sex=Female
+ +      -5.5572 * (normalized) Feature 0
+ +       0.3902 * (normalized) Feature 1
+ +       1.9945 * (normalized) Feature 2
+ +       3.4788 * (normalized) Feature 3
+ +       2.3031 * (normalized) Feature 4
+ +      -0.1654 * (normalized) Feature 5
+ +      -1.275  * (normalized) Feature 6
+ +      -1.7376 * (normalized) Feature 7
+ +       0.9956 * (normalized) Feature 8
+ +      -1.3248 * (normalized) Feature 9
+ -       0.8452
+
+Number of kernel evaluations: 10244 (87.568% cached)
+
+Classifier for classes: hUd, hed
+
+BinarySMO
+
+Machine linear: showing attribute weights, not support vectors.
+
+         0.3487 * (normalized) Train or Test=Test
+ +      -0.158  * (normalized) Speaker Number=Andrew
+ +       0.3518 * (normalized) Speaker Number=Bill
+ +      -0.0746 * (normalized) Speaker Number=David
+ +      -0.4623 * (normalized) Speaker Number=Mark
+ +      -0.2395 * (normalized) Speaker Number=Jo
+ +       0.1054 * (normalized) Speaker Number=Kate
+ +      -0.8716 * (normalized) Speaker Number=Penny
+ +       1      * (normalized) Speaker Number=Rose
+ +       0.0541 * (normalized) Speaker Number=Mike
+ +       0.282  * (normalized) Speaker Number=Nick
+ +       0.118  * (normalized) Speaker Number=Rich
+ +      -0      * (normalized) Speaker Number=Tim
+ +       0.2324 * (normalized) Speaker Number=Sarah
+ +      -0.065  * (normalized) Speaker Number=Sue
+ +      -0.2728 * (normalized) Speaker Number=Wendy
+ +      -0.111  * (normalized) Sex=Female
+ +       5.8531 * (normalized) Feature 0
+ +      -4.1033 * (normalized) Feature 1
+ +      -0.947  * (normalized) Feature 2
+ +       0.0576 * (normalized) Feature 3
+ +       0.7939 * (normalized) Feature 4
+ +      -0.9848 * (normalized) Feature 5
+ +      -0.2643 * (normalized) Feature 6
+ +      -1.3939 * (normalized) Feature 7
+ +      -1.9297 * (normalized) Feature 8
+ +      -0.362  * (normalized) Feature 9
+ +       2.3532
+
+Number of kernel evaluations: 11605 (87.751% cached)
+
+Classifier for classes: hud, hed
+
+BinarySMO
+
+Machine linear: showing attribute weights, not support vectors.
+
+         0.2758 * (normalized) Train or Test=Test
+ +      -0.2419 * (normalized) Speaker Number=Andrew
+ +      -0.1374 * (normalized) Speaker Number=Bill
+ +       0.1563 * (normalized) Speaker Number=David
+ +      -0.8856 * (normalized) Speaker Number=Mark
+ +      -0.0374 * (normalized) Speaker Number=Jo
+ +       0.4011 * (normalized) Speaker Number=Kate
+ +      -0.0163 * (normalized) Speaker Number=Penny
+ +       0.4853 * (normalized) Speaker Number=Rose
+ +       0.049  * (normalized) Speaker Number=Mike
+ +       0.5579 * (normalized) Speaker Number=Nick
+ +       0.2486 * (normalized) Speaker Number=Rich
+ +       0.2785 * (normalized) Speaker Number=Tim
+ +      -0.2994 * (normalized) Speaker Number=Sarah
+ +      -0.0489 * (normalized) Speaker Number=Sue
+ +      -0.5098 * (normalized) Speaker Number=Wendy
+ +      -0.0254 * (normalized) Sex=Female
+ +       5.511  * (normalized) Feature 0
+ +      -2.0726 * (normalized) Feature 1
+ +      -0.8521 * (normalized) Feature 2
+ +      -2.5127 * (normalized) Feature 3
+ +      -0.5565 * (normalized) Feature 4
+ +      -1.0597 * (normalized) Feature 5
+ +      -0.0798 * (normalized) Feature 6
+ +       0.2781 * (normalized) Feature 7
+ +      -0.7292 * (normalized) Feature 8
+ +       1.1876 * (normalized) Feature 9
+ +       1.5264
+
+Number of kernel evaluations: 10884 (88.683% cached)
+
+
+
+Time taken to build model: 0.37 seconds
+
+=== Stratified cross-validation ===
+=== Summary ===
+
+Correctly Classified Instances         707               71.4141 %
+Incorrectly Classified Instances       283               28.5859 %
+Kappa statistic                          0.6856
+Mean absolute error                      0.1505
+Root mean squared error                  0.2665
+Relative absolute error                 91.0343 %
+Root relative squared error             92.6913 %
+Total Number of Instances              990     
+
+=== Detailed Accuracy By Class ===
+
+                 TP Rate  FP Rate  Precision  Recall   F-Measure  MCC      ROC Area  PRC Area  Class
+                 0.833    0.020    0.806      0.833    0.820      0.801    0.981     0.765     hid
+                 0.556    0.038    0.595      0.556    0.575      0.534    0.925     0.475     hId
+                 0.778    0.030    0.722      0.778    0.749      0.723    0.972     0.671     hEd
+                 0.856    0.012    0.875      0.856    0.865      0.852    0.978     0.809     hAd
+                 0.567    0.056    0.505      0.567    0.534      0.485    0.906     0.436     hYd
+                 0.489    0.041    0.543      0.489    0.515      0.470    0.891     0.407     had
+                 0.556    0.032    0.633      0.556    0.592      0.555    0.911     0.515     hOd
+                 0.867    0.026    0.772      0.867    0.817      0.799    0.980     0.787     hod
+                 0.689    0.019    0.785      0.689    0.734      0.711    0.953     0.668     hUd
+                 0.878    0.016    0.849      0.878    0.863      0.850    0.988     0.863     hud
+                 0.789    0.026    0.755      0.789    0.772      0.749    0.959     0.695     hed
+Weighted Avg.    0.714    0.029    0.713      0.714    0.712      0.684    0.950     0.645     
+
+=== Confusion Matrix ===
+
+  a  b  c  d  e  f  g  h  i  j  k   <-- classified as
+ 75  9  2  0  0  0  0  0  0  4  0 |  a = hid
+ 15 50 19  1  0  0  0  0  1  2  2 |  b = hId
+  2 12 70  1  0  1  0  0  0  0  4 |  c = hEd
+  1  2  1 77  3  5  0  0  0  0  1 |  d = hAd
+  0  0  0  1 51 20 17  0  0  0  1 |  e = hYd
+  0  4  0  8 22 44  3  0  0  0  9 |  f = had
+  0  2  5  0 23  1 50  3  1  0  5 |  g = hOd
+  0  0  0  0  0  0  1 78 11  0  0 |  h = hod
+  0  2  0  0  0  0  3 14 62  8  1 |  i = hUd
+  0  1  0  0  0  0  0  6  4 79  0 |  j = hud
+  0  2  0  0  2 10  5  0  0  0 71 |  k = hed
+

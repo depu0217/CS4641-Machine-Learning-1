@@ -1,0 +1,1285 @@
+=== Run information ===
+
+Scheme:       weka.classifiers.functions.MultilayerPerceptron -L 0.3 -M 0.2 -N 500 -V 0 -S 0 -E 20 -H 28
+Relation:     vowel
+Instances:    990
+Attributes:   14
+              Train or Test
+              Speaker Number
+              Sex
+              Feature 0
+              Feature 1
+              Feature 2
+              Feature 3
+              Feature 4
+              Feature 5
+              Feature 6
+              Feature 7
+              Feature 8
+              Feature 9
+              Class
+Test mode:    10-fold cross-validation
+
+=== Classifier model (full training set) ===
+
+Sigmoid Node 0
+    Inputs    Weights
+    Threshold    -5.893028285251432
+    Node 11    -0.6230853191267265
+    Node 12    0.3869775847718102
+    Node 13    -0.8747199739114371
+    Node 14    2.1733900346598447
+    Node 15    -1.0439863956759479
+    Node 16    0.3156035388132826
+    Node 17    -3.2248182135614933
+    Node 18    -2.512825564567985
+    Node 19    1.465557959948969
+    Node 20    -3.777954611103936
+    Node 21    -1.1475137452676607
+    Node 22    5.1522961968099885
+    Node 23    0.46348549621572144
+    Node 24    7.514983186598558
+    Node 25    -1.9344451998334482
+    Node 26    3.4164978346135424
+    Node 27    -0.7341276722189545
+    Node 28    0.8968384018039575
+    Node 29    -1.6175262324772937
+    Node 30    -0.8756088286996949
+    Node 31    -0.8035753562320525
+    Node 32    -1.7667882546199496
+    Node 33    -0.3932123026098393
+    Node 34    6.834672659637693
+    Node 35    1.504793652749838
+    Node 36    -2.7647663170682817
+    Node 37    -1.768793539317602
+    Node 38    -2.9061542153325584
+Sigmoid Node 1
+    Inputs    Weights
+    Threshold    -4.563885921586354
+    Node 11    6.680227360765284
+    Node 12    2.81508235301585
+    Node 13    3.8136072813221564
+    Node 14    -5.095876249497737
+    Node 15    -3.401177604872658
+    Node 16    2.133153795930248
+    Node 17    1.5877850660951647
+    Node 18    -1.3275057343952508
+    Node 19    -1.6753341361801082
+    Node 20    -4.5757838247439935
+    Node 21    1.6251296067603482
+    Node 22    -6.893750429122837
+    Node 23    3.68033983247084
+    Node 24    -8.762365466798153
+    Node 25    -4.823309222224077
+    Node 26    6.226862789945288
+    Node 27    -4.832623644064358
+    Node 28    2.092803363095522
+    Node 29    -2.2736064797808
+    Node 30    1.3226055859579686
+    Node 31    3.074671347747508
+    Node 32    1.808665008655027
+    Node 33    3.059282028610243
+    Node 34    -6.158682724603497
+    Node 35    -1.356035680365121
+    Node 36    -1.3348621480648881
+    Node 37    -1.7040410512285946
+    Node 38    -0.6535831556482438
+Sigmoid Node 2
+    Inputs    Weights
+    Threshold    -3.5460781712735954
+    Node 11    -6.049703725691573
+    Node 12    0.30047244668346657
+    Node 13    3.9187578152225186
+    Node 14    -2.6435921745919115
+    Node 15    -4.123608419157312
+    Node 16    4.161406885754068
+    Node 17    -2.165729742136802
+    Node 18    -7.603333091704761
+    Node 19    6.744602852747748
+    Node 20    -2.893018717802509
+    Node 21    0.6055548216822715
+    Node 22    -0.11527178342548214
+    Node 23    -1.0207436062021524
+    Node 24    -4.3264486304967775
+    Node 25    -2.0698449868239694
+    Node 26    -4.4156876220298935
+    Node 27    4.811146987767143
+    Node 28    0.6052863676579495
+    Node 29    -1.2480098587984145
+    Node 30    -4.225417789476231
+    Node 31    -4.335372580885508
+    Node 32    -4.931382671023231
+    Node 33    -4.0589051854784435
+    Node 34    -6.970518635412409
+    Node 35    -1.6679505583566703
+    Node 36    -4.923868156460059
+    Node 37    -2.4758323657221757
+    Node 38    -3.495893953230228
+Sigmoid Node 3
+    Inputs    Weights
+    Threshold    -4.62004048321418
+    Node 11    -2.4629076414660926
+    Node 12    -2.383251940391668
+    Node 13    0.9891585714498422
+    Node 14    -3.726363289412845
+    Node 15    4.293697209639849
+    Node 16    -7.165953156382319
+    Node 17    -1.825274237629158
+    Node 18    2.8168220028003206
+    Node 19    6.335178618667673
+    Node 20    -1.802981812356918
+    Node 21    -2.2782690012319513
+    Node 22    -2.322530625924604
+    Node 23    -2.399299957640074
+    Node 24    -2.2981617271964643
+    Node 25    -5.565539532114463
+    Node 26    -2.9540179257944277
+    Node 27    0.9210841545204114
+    Node 28    -0.3745048800721653
+    Node 29    -1.877445561439444
+    Node 30    8.071914334188433
+    Node 31    -3.459278876760166
+    Node 32    -1.965562291328849
+    Node 33    -2.8301635306084076
+    Node 34    -2.099928396055378
+    Node 35    -3.0069856150389316
+    Node 36    -5.048836115793907
+    Node 37    -4.053273274911315
+    Node 38    -4.0671220077884795
+Sigmoid Node 4
+    Inputs    Weights
+    Threshold    -6.900398039704628
+    Node 11    -2.003166534009732
+    Node 12    -3.2555613175077407
+    Node 13    -10.24971829052854
+    Node 14    -4.8319231324550485
+    Node 15    2.340362025260477
+    Node 16    -4.1239448407772175
+    Node 17    4.531179934759572
+    Node 18    3.050885685427548
+    Node 19    -2.214154836194646
+    Node 20    -0.16198960535255258
+    Node 21    -2.843678681027007
+    Node 22    -0.6437042010650169
+    Node 23    -2.509044276269087
+    Node 24    -1.2806064004303745
+    Node 25    -5.327310337077831
+    Node 26    -1.932304481242718
+    Node 27    6.601808684596948
+    Node 28    -5.5412915038610615
+    Node 29    -1.8040713146448513
+    Node 30    5.048016113275638
+    Node 31    -2.400500925930874
+    Node 32    8.051225836618753
+    Node 33    6.966102227793061
+    Node 34    1.9714927318832107
+    Node 35    -3.5200534063830706
+    Node 36    -1.2534329108994018
+    Node 37    -7.697031738894277
+    Node 38    -0.8467164713505684
+Sigmoid Node 5
+    Inputs    Weights
+    Threshold    -2.93044180675825
+    Node 11    1.1005862625184597
+    Node 12    -1.5312557658280492
+    Node 13    4.608736575706406
+    Node 14    -2.3328415883161555
+    Node 15    -3.0970375012495452
+    Node 16    -6.761929755435876
+    Node 17    -2.025160593592051
+    Node 18    5.268228176804337
+    Node 19    -14.169140695199394
+    Node 20    1.173108749784194
+    Node 21    -5.498355969140089
+    Node 22    -2.3455811384958745
+    Node 23    -1.8767773419028004
+    Node 24    -1.3983254282512014
+    Node 25    -9.774028372402835
+    Node 26    -5.193809828958059
+    Node 27    5.578688531522131
+    Node 28    -1.815454945888328
+    Node 29    -1.9528875671202355
+    Node 30    -9.364499540107074
+    Node 31    -2.4410761104954424
+    Node 32    -5.644516639632705
+    Node 33    -8.947154576989965
+    Node 34    4.693657431528171
+    Node 35    1.209113561556729
+    Node 36    -1.0087177091334725
+    Node 37    0.46209107766219626
+    Node 38    4.226171890369895
+Sigmoid Node 6
+    Inputs    Weights
+    Threshold    -3.6060847710287023
+    Node 11    0.5208989790990665
+    Node 12    -1.7758371954364573
+    Node 13    -1.4322005949092425
+    Node 14    -13.077061892711534
+    Node 15    -2.96728845683181
+    Node 16    -1.4218686229298143
+    Node 17    -1.6575022577499117
+    Node 18    -1.5988389833636356
+    Node 19    0.7571325941227306
+    Node 20    2.9196025266732084
+    Node 21    -1.152396015384106
+    Node 22    -1.2100328024664087
+    Node 23    5.159058743163237
+    Node 24    0.09378885045390424
+    Node 25    6.18384584471549
+    Node 26    -2.8211837055804088
+    Node 27    -4.27262130605867
+    Node 28    0.43969164217150775
+    Node 29    -7.762232730901028
+    Node 30    -1.3806066349600614
+    Node 31    -5.52573122390308
+    Node 32    3.759412690992159
+    Node 33    0.8267074251132749
+    Node 34    -0.7882218113545331
+    Node 35    -2.397664610227571
+    Node 36    -0.7922312815038122
+    Node 37    7.997713302513875
+    Node 38    3.147885157641199
+Sigmoid Node 7
+    Inputs    Weights
+    Threshold    -5.541289625360719
+    Node 11    -2.636650244566317
+    Node 12    -0.06072695005455253
+    Node 13    -2.9009432465132736
+    Node 14    5.106039382237766
+    Node 15    -2.2208118193963107
+    Node 16    -2.8900973874473714
+    Node 17    -0.6109562603689418
+    Node 18    1.2295491577617954
+    Node 19    -2.307250037377747
+    Node 20    -3.9962154884988195
+    Node 21    2.805696548413112
+    Node 22    -1.3575050150228685
+    Node 23    -1.3657334677970414
+    Node 24    -0.39815338875215717
+    Node 25    -0.5470692715075494
+    Node 26    -1.684657264846412
+    Node 27    -7.158766668721075
+    Node 28    -2.8287204198732407
+    Node 29    2.553704108603602
+    Node 30    1.5684495515854586
+    Node 31    -6.048955920524481
+    Node 32    6.624803395137083
+    Node 33    6.310609680816242
+    Node 34    -0.849551515192387
+    Node 35    -3.341591125466581
+    Node 36    -3.818018442174621
+    Node 37    2.8032453464337146
+    Node 38    1.4153806906127582
+Sigmoid Node 8
+    Inputs    Weights
+    Threshold    -0.036856714505922615
+    Node 11    -12.3428340800315
+    Node 12    -1.5120542526467735
+    Node 13    -3.1769973157283347
+    Node 14    7.227077808300338
+    Node 15    -2.5305169549008992
+    Node 16    -5.1287738985871725
+    Node 17    -0.24573904717767076
+    Node 18    -1.9658626818523077
+    Node 19    -2.534223209109463
+    Node 20    -2.1431101798395717
+    Node 21    -4.863187262481859
+    Node 22    0.22428339942127337
+    Node 23    1.0303683729600426
+    Node 24    -1.1458963430278282
+    Node 25    7.643643318191676
+    Node 26    -1.0353943374971428
+    Node 27    -3.920755629246322
+    Node 28    1.6282027007611286
+    Node 29    -7.818410778662106
+    Node 30    -6.13624798772144
+    Node 31    1.0948500458172568
+    Node 32    -1.9599695520430112
+    Node 33    -3.458178742586911
+    Node 34    -0.9354130686362147
+    Node 35    3.107714587630046
+    Node 36    -2.9210584923114986
+    Node 37    -2.9089642763969112
+    Node 38    1.280058888018247
+Sigmoid Node 9
+    Inputs    Weights
+    Threshold    -3.282760151646069
+    Node 11    8.597103550737796
+    Node 12    -3.779021723985813
+    Node 13    -4.097332778050332
+    Node 14    4.283959975716606
+    Node 15    -0.3392771459200512
+    Node 16    3.2128122782071826
+    Node 17    -1.9640524550842353
+    Node 18    0.9472468923574654
+    Node 19    -1.8612774369214096
+    Node 20    -2.8639374658724512
+    Node 21    -3.3797952260025124
+    Node 22    -1.7371598166739404
+    Node 23    -2.796679764371156
+    Node 24    -1.755229541269683
+    Node 25    -0.02024848180685224
+    Node 26    -2.511886437092143
+    Node 27    -3.8381542695941917
+    Node 28    -3.135934276920289
+    Node 29    7.380682975820005
+    Node 30    0.5633002939649943
+    Node 31    4.458733338699301
+    Node 32    -3.6993147162211857
+    Node 33    -2.200818339068496
+    Node 34    -1.903836394641902
+    Node 35    -2.6538443494203414
+    Node 36    -2.0514191970406706
+    Node 37    -0.06374123845737707
+    Node 38    -2.988690871861887
+Sigmoid Node 10
+    Inputs    Weights
+    Threshold    5.863861312848355
+    Node 11    -4.280892018340237
+    Node 12    3.5889836563488067
+    Node 13    -5.906425425763711
+    Node 14    -10.50997602372277
+    Node 15    0.7106937883659411
+    Node 16    1.0842768433027516
+    Node 17    -1.9839291442837204
+    Node 18    -10.005327538539976
+    Node 19    -3.6817664509318884
+    Node 20    1.384060030417652
+    Node 21    1.9821145899818602
+    Node 22    -2.6454238081693893
+    Node 23    0.1996742042507208
+    Node 24    -2.609086027755165
+    Node 25    -5.332371645889964
+    Node 26    -7.872327616020288
+    Node 27    -3.416683121267298
+    Node 28    -0.5003951591608525
+    Node 29    -2.122328310952293
+    Node 30    -3.8009453301422575
+    Node 31    1.140476601161678
+    Node 32    -4.732317508531194
+    Node 33    -2.5568575531419655
+    Node 34    -5.857038402541284
+    Node 35    0.15493334340835196
+    Node 36    5.404947392859223
+    Node 37    -4.848829549465929
+    Node 38    -1.5633029191832648
+Sigmoid Node 11
+    Inputs    Weights
+    Threshold    -0.5604911372856395
+    Attrib Train or Test=Test    -0.22074170695829431
+    Attrib Speaker Number=Andrew    0.7962831631822848
+    Attrib Speaker Number=Bill    0.8882479474134317
+    Attrib Speaker Number=David    0.21708591930002047
+    Attrib Speaker Number=Mark    2.922591378670883
+    Attrib Speaker Number=Jo    -0.6365205847972687
+    Attrib Speaker Number=Kate    0.210071605882781
+    Attrib Speaker Number=Penny    0.8985759814973683
+    Attrib Speaker Number=Rose    -1.3570440650116489
+    Attrib Speaker Number=Mike    -1.8376510373936967
+    Attrib Speaker Number=Nick    -0.10180142601847804
+    Attrib Speaker Number=Rich    1.252115030789902
+    Attrib Speaker Number=Tim    0.7044923660139657
+    Attrib Speaker Number=Sarah    3.1981455900521283
+    Attrib Speaker Number=Sue    -0.16638508827643653
+    Attrib Speaker Number=Wendy    -0.17501804889768788
+    Attrib Sex=Female    -1.1930710027802678
+    Attrib Feature 0    -9.760906289866622
+    Attrib Feature 1    -2.5867727748150844
+    Attrib Feature 2    7.527969834903891
+    Attrib Feature 3    6.839382712488863
+    Attrib Feature 4    8.646382258614302
+    Attrib Feature 5    3.2490482507074145
+    Attrib Feature 6    -1.7845836582608494
+    Attrib Feature 7    -3.0294998724834414
+    Attrib Feature 8    2.0075347513931536
+    Attrib Feature 9    -3.676834684551969
+Sigmoid Node 12
+    Inputs    Weights
+    Threshold    -0.17356158075757713
+    Attrib Train or Test=Test    0.5925631531434398
+    Attrib Speaker Number=Andrew    -0.2923843958174326
+    Attrib Speaker Number=Bill    0.8813763259094445
+    Attrib Speaker Number=David    0.5815047712777123
+    Attrib Speaker Number=Mark    -1.1695764778829913
+    Attrib Speaker Number=Jo    0.4101338016403508
+    Attrib Speaker Number=Kate    -0.6386744150469211
+    Attrib Speaker Number=Penny    1.2588072934360692
+    Attrib Speaker Number=Rose    -0.18523774392496267
+    Attrib Speaker Number=Mike    -2.2611492783049245
+    Attrib Speaker Number=Nick    2.569334418915994
+    Attrib Speaker Number=Rich    0.15179971233915762
+    Attrib Speaker Number=Tim    1.3448695239616744
+    Attrib Speaker Number=Sarah    -0.1878533107063443
+    Attrib Speaker Number=Sue    -0.13681134374029386
+    Attrib Speaker Number=Wendy    0.2831878579432847
+    Attrib Sex=Female    -0.3373102078819585
+    Attrib Feature 0    0.2916883601850946
+    Attrib Feature 1    0.48803611869369684
+    Attrib Feature 2    3.484052033872076
+    Attrib Feature 3    -0.39411775346307026
+    Attrib Feature 4    1.59832393803648
+    Attrib Feature 5    -2.6499839305467394
+    Attrib Feature 6    0.49770382510107825
+    Attrib Feature 7    1.265293919273407
+    Attrib Feature 8    -1.1914063438402758
+    Attrib Feature 9    3.472420065663028
+Sigmoid Node 13
+    Inputs    Weights
+    Threshold    -0.18358517242104222
+    Attrib Train or Test=Test    0.34870540149825163
+    Attrib Speaker Number=Andrew    -0.15812030313962908
+    Attrib Speaker Number=Bill    0.8824101161376505
+    Attrib Speaker Number=David    -1.6592017419858898
+    Attrib Speaker Number=Mark    -1.6302839409869605
+    Attrib Speaker Number=Jo    -0.3255663952142027
+    Attrib Speaker Number=Kate    0.8387887502820548
+    Attrib Speaker Number=Penny    0.21192690809964038
+    Attrib Speaker Number=Rose    2.5621015549664583
+    Attrib Speaker Number=Mike    0.1825736440495519
+    Attrib Speaker Number=Nick    1.2124865720839626
+    Attrib Speaker Number=Rich    2.2407998156495954
+    Attrib Speaker Number=Tim    -0.03622571831798951
+    Attrib Speaker Number=Sarah    -0.9174736164986891
+    Attrib Speaker Number=Sue    -2.209010776677592
+    Attrib Speaker Number=Wendy    0.6858751942495614
+    Attrib Sex=Female    -0.07299082621343726
+    Attrib Feature 0    14.375377652849888
+    Attrib Feature 1    -9.310600481634989
+    Attrib Feature 2    -0.37658785453605165
+    Attrib Feature 3    2.4888400507430943
+    Attrib Feature 4    4.439761061581783
+    Attrib Feature 5    -2.0982655718257734
+    Attrib Feature 6    -1.4508993217138697
+    Attrib Feature 7    -2.992187713035422
+    Attrib Feature 8    -6.22133265747585
+    Attrib Feature 9    1.730258809404163
+Sigmoid Node 14
+    Inputs    Weights
+    Threshold    -0.49053094135438696
+    Attrib Train or Test=Test    0.1528689128905836
+    Attrib Speaker Number=Andrew    -0.10103598599033034
+    Attrib Speaker Number=Bill    0.9347136197656378
+    Attrib Speaker Number=David    0.060689563423579264
+    Attrib Speaker Number=Mark    2.4231596239468236
+    Attrib Speaker Number=Jo    0.633854864610403
+    Attrib Speaker Number=Kate    -0.4835422191034948
+    Attrib Speaker Number=Penny    1.2969125783642497
+    Attrib Speaker Number=Rose    -1.8861927255666848
+    Attrib Speaker Number=Mike    0.3087712236641618
+    Attrib Speaker Number=Nick    -0.515438849848939
+    Attrib Speaker Number=Rich    -0.4886762163576292
+    Attrib Speaker Number=Tim    0.250684828436532
+    Attrib Speaker Number=Sarah    1.8932635392894515
+    Attrib Speaker Number=Sue    1.0314281073712257
+    Attrib Speaker Number=Wendy    0.16848990827802748
+    Attrib Sex=Female    0.11596236668026731
+    Attrib Feature 0    -17.82895816563149
+    Attrib Feature 1    3.8641091629791915
+    Attrib Feature 2    -1.0221453946712717
+    Attrib Feature 3    2.76163704539509
+    Attrib Feature 4    0.6787339207526604
+    Attrib Feature 5    5.136371817760334
+    Attrib Feature 6    -0.13219958258242062
+    Attrib Feature 7    5.2076481522977085
+    Attrib Feature 8    0.15267581116085083
+    Attrib Feature 9    1.4202253448739568
+Sigmoid Node 15
+    Inputs    Weights
+    Threshold    -0.28005221172996164
+    Attrib Train or Test=Test    -0.6708187389705221
+    Attrib Speaker Number=Andrew    1.3946250301777638
+    Attrib Speaker Number=Bill    0.510278777569259
+    Attrib Speaker Number=David    0.35044341189317796
+    Attrib Speaker Number=Mark    -0.36831528256951174
+    Attrib Speaker Number=Jo    0.6393470101813192
+    Attrib Speaker Number=Kate    0.8641908394935913
+    Attrib Speaker Number=Penny    0.043211206074168035
+    Attrib Speaker Number=Rose    -0.8285243989846193
+    Attrib Speaker Number=Mike    1.5299206407746488
+    Attrib Speaker Number=Nick    -1.1244313805798318
+    Attrib Speaker Number=Rich    -0.048805697203239566
+    Attrib Speaker Number=Tim    -0.817359213145216
+    Attrib Speaker Number=Sarah    1.30712149760518
+    Attrib Speaker Number=Sue    -0.3017078531840625
+    Attrib Speaker Number=Wendy    0.6587299155409
+    Attrib Sex=Female    0.5922471448031952
+    Attrib Feature 0    4.985770495367198
+    Attrib Feature 1    1.8712540427764164
+    Attrib Feature 2    -2.3493621576546575
+    Attrib Feature 3    1.5682664408171358
+    Attrib Feature 4    -0.9810281862380812
+    Attrib Feature 5    -5.567093460911913
+    Attrib Feature 6    -4.430176895726357
+    Attrib Feature 7    -0.8742748823298343
+    Attrib Feature 8    -3.1241000963966403
+    Attrib Feature 9    -5.695668618086221
+Sigmoid Node 16
+    Inputs    Weights
+    Threshold    -0.11717955388979835
+    Attrib Train or Test=Test    -0.042216688521836944
+    Attrib Speaker Number=Andrew    -0.2649594354243722
+    Attrib Speaker Number=Bill    1.3177499386821852
+    Attrib Speaker Number=David    -0.6293851031471487
+    Attrib Speaker Number=Mark    -0.0340283894190095
+    Attrib Speaker Number=Jo    1.328224537376046
+    Attrib Speaker Number=Kate    -2.3929239283466575
+    Attrib Speaker Number=Penny    0.647353051387871
+    Attrib Speaker Number=Rose    0.8564053450071377
+    Attrib Speaker Number=Mike    -1.0165520911434838
+    Attrib Speaker Number=Nick    1.3399967000053987
+    Attrib Speaker Number=Rich    0.37642239282227796
+    Attrib Speaker Number=Tim    0.12399523897976691
+    Attrib Speaker Number=Sarah    1.524427537482925
+    Attrib Speaker Number=Sue    -2.5029431256640167
+    Attrib Speaker Number=Wendy    0.5671030663128849
+    Attrib Sex=Female    -0.5088211148755627
+    Attrib Feature 0    0.47392858704511626
+    Attrib Feature 1    -8.840641573688576
+    Attrib Feature 2    1.2715237220523068
+    Attrib Feature 3    2.187450959172675
+    Attrib Feature 4    5.637884970354608
+    Attrib Feature 5    5.300336577654676
+    Attrib Feature 6    -1.288104142498927
+    Attrib Feature 7    2.9870723873753864
+    Attrib Feature 8    -2.7569667917770864
+    Attrib Feature 9    2.4219556667082185
+Sigmoid Node 17
+    Inputs    Weights
+    Threshold    -0.20683804682305787
+    Attrib Train or Test=Test    -1.144628587509348
+    Attrib Speaker Number=Andrew    1.524712931054347
+    Attrib Speaker Number=Bill    0.3362822022644732
+    Attrib Speaker Number=David    -1.7040538977944593
+    Attrib Speaker Number=Mark    -0.9584057916318275
+    Attrib Speaker Number=Jo    1.0387031869905141
+    Attrib Speaker Number=Kate    0.5767500187773713
+    Attrib Speaker Number=Penny    -0.4349133210275544
+    Attrib Speaker Number=Rose    2.2346559598440794
+    Attrib Speaker Number=Mike    -0.8231469484612256
+    Attrib Speaker Number=Nick    0.16975817471131774
+    Attrib Speaker Number=Rich    1.6361759902932527
+    Attrib Speaker Number=Tim    1.2288966844414826
+    Attrib Speaker Number=Sarah    -0.31929283904489963
+    Attrib Speaker Number=Sue    -1.0559631360356194
+    Attrib Speaker Number=Wendy    -0.8493082899494008
+    Attrib Sex=Female    -0.023329443791053058
+    Attrib Feature 0    1.6769270203287923
+    Attrib Feature 1    1.1642571665239072
+    Attrib Feature 2    3.0019935167066976
+    Attrib Feature 3    0.6943392267095416
+    Attrib Feature 4    -5.155285083149134
+    Attrib Feature 5    0.07565827090361527
+    Attrib Feature 6    -1.1333198356079865
+    Attrib Feature 7    -0.862364833029489
+    Attrib Feature 8    -1.2854079621734567
+    Attrib Feature 9    -1.8019249687736865
+Sigmoid Node 18
+    Inputs    Weights
+    Threshold    -0.2271395211588072
+    Attrib Train or Test=Test    0.35610908299366406
+    Attrib Speaker Number=Andrew    1.3279612715908302
+    Attrib Speaker Number=Bill    -1.3821735997169136
+    Attrib Speaker Number=David    1.150159213855546
+    Attrib Speaker Number=Mark    -0.7575328844487319
+    Attrib Speaker Number=Jo    -0.6467835853677517
+    Attrib Speaker Number=Kate    -0.46367543308584347
+    Attrib Speaker Number=Penny    1.167319373837039
+    Attrib Speaker Number=Rose    0.8963994454921554
+    Attrib Speaker Number=Mike    1.58831370851563
+    Attrib Speaker Number=Nick    0.9386999874926438
+    Attrib Speaker Number=Rich    0.7992832921119002
+    Attrib Speaker Number=Tim    -0.8964732574402708
+    Attrib Speaker Number=Sarah    -0.507985509056533
+    Attrib Speaker Number=Sue    -2.078841482848031
+    Attrib Speaker Number=Wendy    1.86458251397446
+    Attrib Sex=Female    -1.0466055781502044
+    Attrib Feature 0    8.540412039736756
+    Attrib Feature 1    8.4670971546915
+    Attrib Feature 2    1.18179843876797
+    Attrib Feature 3    -2.621530202438818
+    Attrib Feature 4    -7.794143044948578
+    Attrib Feature 5    -8.149074201667952
+    Attrib Feature 6    2.6720024460702434
+    Attrib Feature 7    -6.631407157672896
+    Attrib Feature 8    3.5784633768637617
+    Attrib Feature 9    -3.224068925630428
+Sigmoid Node 19
+    Inputs    Weights
+    Threshold    -0.43052377175287176
+    Attrib Train or Test=Test    0.9165440692107728
+    Attrib Speaker Number=Andrew    3.1500727283027485
+    Attrib Speaker Number=Bill    0.41901339305584157
+    Attrib Speaker Number=David    -0.8903202705059079
+    Attrib Speaker Number=Mark    -0.3782167724499044
+    Attrib Speaker Number=Jo    -1.817454190651463
+    Attrib Speaker Number=Kate    -0.08168406230959334
+    Attrib Speaker Number=Penny    -0.40874858102795325
+    Attrib Speaker Number=Rose    2.0090007973399504
+    Attrib Speaker Number=Mike    0.30250354979890615
+    Attrib Speaker Number=Nick    -0.22726658427315408
+    Attrib Speaker Number=Rich    1.01094486171023
+    Attrib Speaker Number=Tim    -0.9985462712317951
+    Attrib Speaker Number=Sarah    0.05364984895235444
+    Attrib Speaker Number=Sue    3.372456994910544
+    Attrib Speaker Number=Wendy    0.04041836008815342
+    Attrib Sex=Female    0.549890070662223
+    Attrib Feature 0    10.947703797687398
+    Attrib Feature 1    -8.93371817099026
+    Attrib Feature 2    -2.677819618523912
+    Attrib Feature 3    4.604922602246512
+    Attrib Feature 4    3.0825898279176553
+    Attrib Feature 5    -8.717923882208266
+    Attrib Feature 6    -4.392799095771038
+    Attrib Feature 7    -4.949875872876588
+    Attrib Feature 8    -4.023458141339493
+    Attrib Feature 9    -1.2201539729959503
+Sigmoid Node 20
+    Inputs    Weights
+    Threshold    0.16281615432365118
+    Attrib Train or Test=Test    0.7124291065131114
+    Attrib Speaker Number=Andrew    -1.8661696098375729
+    Attrib Speaker Number=Bill    0.5942190990383722
+    Attrib Speaker Number=David    -0.9445410433430889
+    Attrib Speaker Number=Mark    -0.7039556325892878
+    Attrib Speaker Number=Jo    -0.07008777524928256
+    Attrib Speaker Number=Kate    1.0884699777942235
+    Attrib Speaker Number=Penny    0.012515520791349394
+    Attrib Speaker Number=Rose    -0.26112516217969745
+    Attrib Speaker Number=Mike    -2.023104252806637
+    Attrib Speaker Number=Nick    0.6159044157124023
+    Attrib Speaker Number=Rich    1.4375668961170616
+    Attrib Speaker Number=Tim    0.40429342861072665
+    Attrib Speaker Number=Sarah    -0.8179691098371659
+    Attrib Speaker Number=Sue    -1.1400141429402717
+    Attrib Speaker Number=Wendy    0.8728119758533532
+    Attrib Sex=Female    1.0271473277088394
+    Attrib Feature 0    1.8666044972980325
+    Attrib Feature 1    0.10344020574164234
+    Attrib Feature 2    1.5520721864193587
+    Attrib Feature 3    1.896543127668919
+    Attrib Feature 4    1.3900462504126352
+    Attrib Feature 5    -2.4065218255622547
+    Attrib Feature 6    -3.52438609093426
+    Attrib Feature 7    -1.9103957204599247
+    Attrib Feature 8    -2.104414639633872
+    Attrib Feature 9    0.22836349723122112
+Sigmoid Node 21
+    Inputs    Weights
+    Threshold    -0.3387227006901956
+    Attrib Train or Test=Test    -0.22072609213021874
+    Attrib Speaker Number=Andrew    0.6899121562959759
+    Attrib Speaker Number=Bill    0.9535711339942551
+    Attrib Speaker Number=David    0.7501747758495413
+    Attrib Speaker Number=Mark    -1.105025376261098
+    Attrib Speaker Number=Jo    1.0889826533140408
+    Attrib Speaker Number=Kate    0.41487872972130374
+    Attrib Speaker Number=Penny    -0.05776092041542522
+    Attrib Speaker Number=Rose    -0.19221031390562876
+    Attrib Speaker Number=Mike    1.6063552346002277
+    Attrib Speaker Number=Nick    -0.9592401721392039
+    Attrib Speaker Number=Rich    -0.15820510291131318
+    Attrib Speaker Number=Tim    -0.08389021082350065
+    Attrib Speaker Number=Sarah    -0.7624400976274026
+    Attrib Speaker Number=Sue    1.6410385821864726
+    Attrib Speaker Number=Wendy    0.4070503734545056
+    Attrib Sex=Female    0.5931251073728178
+    Attrib Feature 0    0.7514713795721123
+    Attrib Feature 1    5.021929149591106
+    Attrib Feature 2    -4.225647390998978
+    Attrib Feature 3    -2.986803028738089
+    Attrib Feature 4    -3.9546329207982636
+    Attrib Feature 5    1.8976237758717804
+    Attrib Feature 6    -0.8193333269906294
+    Attrib Feature 7    5.1473670914159815
+    Attrib Feature 8    4.573388735004564
+    Attrib Feature 9    -1.8185860256542181
+Sigmoid Node 22
+    Inputs    Weights
+    Threshold    -0.4689561256949567
+    Attrib Train or Test=Test    -0.19180416204108855
+    Attrib Speaker Number=Andrew    0.1924576228440021
+    Attrib Speaker Number=Bill    0.41026954418220196
+    Attrib Speaker Number=David    1.9158717083372843
+    Attrib Speaker Number=Mark    1.200625509588866
+    Attrib Speaker Number=Jo    -0.4520317570856852
+    Attrib Speaker Number=Kate    -0.6345746710229642
+    Attrib Speaker Number=Penny    -0.5873467419600467
+    Attrib Speaker Number=Rose    1.6153078279360578
+    Attrib Speaker Number=Mike    -0.48659595139873635
+    Attrib Speaker Number=Nick    0.5140822577050971
+    Attrib Speaker Number=Rich    -0.584629636471048
+    Attrib Speaker Number=Tim    0.15899897474855498
+    Attrib Speaker Number=Sarah    -0.15189363357448268
+    Attrib Speaker Number=Sue    1.1162760214683152
+    Attrib Speaker Number=Wendy    2.2303284914010195
+    Attrib Sex=Female    0.12998699863216084
+    Attrib Feature 0    -1.8573008585779491
+    Attrib Feature 1    -8.458853291668042
+    Attrib Feature 2    0.311287022022585
+    Attrib Feature 3    4.088441562859425
+    Attrib Feature 4    0.9500518551362274
+    Attrib Feature 5    0.3268150609660531
+    Attrib Feature 6    1.734091232833739
+    Attrib Feature 7    -0.6375337450580623
+    Attrib Feature 8    -0.16338860242856404
+    Attrib Feature 9    -1.0435900271078185
+Sigmoid Node 23
+    Inputs    Weights
+    Threshold    -0.4319967942753315
+    Attrib Train or Test=Test    -0.5486896151165828
+    Attrib Speaker Number=Andrew    -0.25904906483778195
+    Attrib Speaker Number=Bill    0.8739535683197608
+    Attrib Speaker Number=David    0.3686265382571366
+    Attrib Speaker Number=Mark    -0.13778734458619218
+    Attrib Speaker Number=Jo    -0.10881928002045692
+    Attrib Speaker Number=Kate    0.16135987164596668
+    Attrib Speaker Number=Penny    2.4119786787574067
+    Attrib Speaker Number=Rose    0.20497491606083226
+    Attrib Speaker Number=Mike    0.4215257233094664
+    Attrib Speaker Number=Nick    0.23240577412393632
+    Attrib Speaker Number=Rich    0.8360940887658144
+    Attrib Speaker Number=Tim    0.4236519842234702
+    Attrib Speaker Number=Sarah    -0.16278259441205326
+    Attrib Speaker Number=Sue    1.232183466731808
+    Attrib Speaker Number=Wendy    -1.205955314956122
+    Attrib Sex=Female    0.08103328045387544
+    Attrib Feature 0    0.15676577954359988
+    Attrib Feature 1    -0.27928296735703156
+    Attrib Feature 2    4.034291901462489
+    Attrib Feature 3    1.105692823961408
+    Attrib Feature 4    0.9636667126326757
+    Attrib Feature 5    0.17769275243355845
+    Attrib Feature 6    -3.193811612230469
+    Attrib Feature 7    0.6080836514416272
+    Attrib Feature 8    2.394759688325352
+    Attrib Feature 9    3.7519838824705616
+Sigmoid Node 24
+    Inputs    Weights
+    Threshold    -0.6709494231808925
+    Attrib Train or Test=Test    -0.0992722542955962
+    Attrib Speaker Number=Andrew    1.4820905273949176
+    Attrib Speaker Number=Bill    1.300600247307348
+    Attrib Speaker Number=David    1.135598719680708
+    Attrib Speaker Number=Mark    -0.15217941806598784
+    Attrib Speaker Number=Jo    -0.1967146204628971
+    Attrib Speaker Number=Kate    0.9482354747545477
+    Attrib Speaker Number=Penny    1.4794421316942674
+    Attrib Speaker Number=Rose    -1.012027891046497
+    Attrib Speaker Number=Mike    0.9635605989956193
+    Attrib Speaker Number=Nick    1.3006150515250194
+    Attrib Speaker Number=Rich    0.4088844335982761
+    Attrib Speaker Number=Tim    -0.12662310505219665
+    Attrib Speaker Number=Sarah    0.4468256015102663
+    Attrib Speaker Number=Sue    0.12509528125019795
+    Attrib Speaker Number=Wendy    1.0330572528646504
+    Attrib Sex=Female    -1.4480381912940414
+    Attrib Feature 0    -5.706274647845671
+    Attrib Feature 1    -7.010077618743746
+    Attrib Feature 2    3.7821544085429237
+    Attrib Feature 3    4.664879701866215
+    Attrib Feature 4    1.2154400625329564
+    Attrib Feature 5    0.6626009083104359
+    Attrib Feature 6    -0.23338522844547147
+    Attrib Feature 7    -2.9164913598156317
+    Attrib Feature 8    2.349543722176892
+    Attrib Feature 9    0.3367093071778731
+Sigmoid Node 25
+    Inputs    Weights
+    Threshold    -0.2232387250943523
+    Attrib Train or Test=Test    -0.8489952185423476
+    Attrib Speaker Number=Andrew    9.096361356388513E-4
+    Attrib Speaker Number=Bill    0.14454942915819646
+    Attrib Speaker Number=David    -0.2785344400235209
+    Attrib Speaker Number=Mark    0.45236635020147437
+    Attrib Speaker Number=Jo    2.0164078468222115
+    Attrib Speaker Number=Kate    1.3805082790681105
+    Attrib Speaker Number=Penny    0.8525018287351488
+    Attrib Speaker Number=Rose    -2.0317104492029903
+    Attrib Speaker Number=Mike    -0.6838037823709413
+    Attrib Speaker Number=Nick    -0.5917450891073983
+    Attrib Speaker Number=Rich    0.3267585271462373
+    Attrib Speaker Number=Tim    3.1346490942161
+    Attrib Speaker Number=Sarah    -0.6744582612404689
+    Attrib Speaker Number=Sue    -1.8971427421106886
+    Attrib Speaker Number=Wendy    1.016719450202105
+    Attrib Sex=Female    -0.7712906594109725
+    Attrib Feature 0    -13.25770513469613
+    Attrib Feature 1    7.189423316681229
+    Attrib Feature 2    2.3812152834878706
+    Attrib Feature 3    -1.4602458988753335
+    Attrib Feature 4    -2.495553684854938
+    Attrib Feature 5    2.3811187214707363
+    Attrib Feature 6    1.4129344741427257
+    Attrib Feature 7    5.6533509129157995
+    Attrib Feature 8    3.2018245717706377
+    Attrib Feature 9    4.514819524099219
+Sigmoid Node 26
+    Inputs    Weights
+    Threshold    -0.2979148702212122
+    Attrib Train or Test=Test    1.3257682847507841
+    Attrib Speaker Number=Andrew    0.05388147085274398
+    Attrib Speaker Number=Bill    0.3017973361167181
+    Attrib Speaker Number=David    -0.9408176522917197
+    Attrib Speaker Number=Mark    0.7307902778534188
+    Attrib Speaker Number=Jo    -0.4532952858136414
+    Attrib Speaker Number=Kate    -0.6969819984749408
+    Attrib Speaker Number=Penny    0.4236173588367093
+    Attrib Speaker Number=Rose    1.1259291733760843
+    Attrib Speaker Number=Mike    -2.0222533510355736
+    Attrib Speaker Number=Nick    1.3284089945100799
+    Attrib Speaker Number=Rich    0.26710044462025967
+    Attrib Speaker Number=Tim    0.5897245373798047
+    Attrib Speaker Number=Sarah    1.4083955072796042
+    Attrib Speaker Number=Sue    1.5782107994421406
+    Attrib Speaker Number=Wendy    -0.2048532506788693
+    Attrib Sex=Female    1.6623806339134615
+    Attrib Feature 0    -0.13993650081850076
+    Attrib Feature 1    -9.700266570577549
+    Attrib Feature 2    2.341766152728822
+    Attrib Feature 3    0.4539714435392186
+    Attrib Feature 4    4.2299209633750845
+    Attrib Feature 5    7.305659545821768
+    Attrib Feature 6    1.2516777450491468
+    Attrib Feature 7    2.922154804965071
+    Attrib Feature 8    -0.5730599749140255
+    Attrib Feature 9    1.835019749581205
+Sigmoid Node 27
+    Inputs    Weights
+    Threshold    -0.015053588550082207
+    Attrib Train or Test=Test    -0.18919763780989107
+    Attrib Speaker Number=Andrew    -0.40080889604282954
+    Attrib Speaker Number=Bill    -1.4491315942381167
+    Attrib Speaker Number=David    -1.1668477034388114
+    Attrib Speaker Number=Mark    -0.016415789673423612
+    Attrib Speaker Number=Jo    -0.022955579895811425
+    Attrib Speaker Number=Kate    0.7551922542589325
+    Attrib Speaker Number=Penny    -2.0394102864508414
+    Attrib Speaker Number=Rose    4.715249847000475
+    Attrib Speaker Number=Mike    0.08982466185738307
+    Attrib Speaker Number=Nick    0.14434691382036793
+    Attrib Speaker Number=Rich    1.803068351702979
+    Attrib Speaker Number=Tim    0.46639553803179074
+    Attrib Speaker Number=Sarah    -1.955965617657314
+    Attrib Speaker Number=Sue    -1.3954751756477006
+    Attrib Speaker Number=Wendy    0.8469014041074432
+    Attrib Sex=Female    0.7035309987821479
+    Attrib Feature 0    15.423584331720638
+    Attrib Feature 1    -0.24922866665115279
+    Attrib Feature 2    -0.09056226737636086
+    Attrib Feature 3    -0.43435107829092695
+    Attrib Feature 4    -7.050446908737663
+    Attrib Feature 5    -1.4643104278545547
+    Attrib Feature 6    -4.550247955878858
+    Attrib Feature 7    -9.273048379390893
+    Attrib Feature 8    -0.1667982970259729
+    Attrib Feature 9    -0.952102722319451
+Sigmoid Node 28
+    Inputs    Weights
+    Threshold    -0.07158573482856541
+    Attrib Train or Test=Test    -0.1444814930908924
+    Attrib Speaker Number=Andrew    0.7075205515581169
+    Attrib Speaker Number=Bill    -0.41124260748978425
+    Attrib Speaker Number=David    -1.3247188527672105
+    Attrib Speaker Number=Mark    0.7445500944276165
+    Attrib Speaker Number=Jo    -1.1264930120217953
+    Attrib Speaker Number=Kate    1.2846904635636738
+    Attrib Speaker Number=Penny    -0.10086686580136293
+    Attrib Speaker Number=Rose    0.7997171867211752
+    Attrib Speaker Number=Mike    -0.061845129662635535
+    Attrib Speaker Number=Nick    0.6947188412072066
+    Attrib Speaker Number=Rich    -0.191735343834074
+    Attrib Speaker Number=Tim    -0.8648084315490855
+    Attrib Speaker Number=Sarah    -1.1367050857907244
+    Attrib Speaker Number=Sue    1.1150356458440396
+    Attrib Speaker Number=Wendy    0.4745824740815627
+    Attrib Sex=Female    1.0047022726548562
+    Attrib Feature 0    0.49698761677857967
+    Attrib Feature 1    -5.976585732521251
+    Attrib Feature 2    4.51993038941199
+    Attrib Feature 3    -1.25161747744197
+    Attrib Feature 4    0.7377398919298693
+    Attrib Feature 5    2.7287000089605593
+    Attrib Feature 6    -0.6325044678673867
+    Attrib Feature 7    1.2931434075720674
+    Attrib Feature 8    1.7756964501949086
+    Attrib Feature 9    1.0257167966686678
+Sigmoid Node 29
+    Inputs    Weights
+    Threshold    -0.5886155102251016
+    Attrib Train or Test=Test    0.1245809415949011
+    Attrib Speaker Number=Andrew    1.0089259256608152
+    Attrib Speaker Number=Bill    -0.6689354188990067
+    Attrib Speaker Number=David    0.8846264783767338
+    Attrib Speaker Number=Mark    1.6595795704470921
+    Attrib Speaker Number=Jo    0.3143751663785206
+    Attrib Speaker Number=Kate    1.209138453246062
+    Attrib Speaker Number=Penny    0.46365664778369786
+    Attrib Speaker Number=Rose    -0.7307478510592256
+    Attrib Speaker Number=Mike    2.501475023041461
+    Attrib Speaker Number=Nick    0.6977357343447071
+    Attrib Speaker Number=Rich    -0.668508758746272
+    Attrib Speaker Number=Tim    -0.5884508675804879
+    Attrib Speaker Number=Sarah    0.0725887837424044
+    Attrib Speaker Number=Sue    -0.1776100304818666
+    Attrib Speaker Number=Wendy    1.9989943145671845
+    Attrib Sex=Female    -0.5254585814006008
+    Attrib Feature 0    -10.290572407049835
+    Attrib Feature 1    3.236963985374177
+    Attrib Feature 2    -0.22177547924495872
+    Attrib Feature 3    -1.8450023337135202
+    Attrib Feature 4    -0.2557682178851989
+    Attrib Feature 5    -0.5206671245354717
+    Attrib Feature 6    3.2228802791887943
+    Attrib Feature 7    3.143114869085424
+    Attrib Feature 8    2.7754643021109775
+    Attrib Feature 9    3.11641925861226
+Sigmoid Node 30
+    Inputs    Weights
+    Threshold    -0.5753206877581963
+    Attrib Train or Test=Test    0.8490917670269112
+    Attrib Speaker Number=Andrew    -2.704892310885277
+    Attrib Speaker Number=Bill    0.03628005946799377
+    Attrib Speaker Number=David    3.9488551288416223
+    Attrib Speaker Number=Mark    1.3524838194126974
+    Attrib Speaker Number=Jo    1.7503860719841493
+    Attrib Speaker Number=Kate    -1.181626586507815
+    Attrib Speaker Number=Penny    -0.9255828680031091
+    Attrib Speaker Number=Rose    0.5961557227172835
+    Attrib Speaker Number=Mike    -0.04867610801844497
+    Attrib Speaker Number=Nick    -1.36820738793662
+    Attrib Speaker Number=Rich    1.139769412310624
+    Attrib Speaker Number=Tim    0.7404809843298157
+    Attrib Speaker Number=Sarah    -2.3719911786406236
+    Attrib Speaker Number=Sue    3.2159254183471067
+    Attrib Speaker Number=Wendy    2.7525431117517463
+    Attrib Sex=Female    0.7388830880354088
+    Attrib Feature 0    7.003876000905921
+    Attrib Feature 1    6.259456030908188
+    Attrib Feature 2    -7.932164277288229
+    Attrib Feature 3    -9.761433064767646
+    Attrib Feature 4    -7.732588080042018
+    Attrib Feature 5    -2.391266842861798
+    Attrib Feature 6    1.0485077296144942
+    Attrib Feature 7    -5.596993406077013
+    Attrib Feature 8    0.4298560782029837
+    Attrib Feature 9    -4.257927063123684
+Sigmoid Node 31
+    Inputs    Weights
+    Threshold    -0.2830266558598157
+    Attrib Train or Test=Test    0.37821495262224614
+    Attrib Speaker Number=Andrew    -0.7227487650663317
+    Attrib Speaker Number=Bill    0.46163909833003647
+    Attrib Speaker Number=David    2.2672864907711747
+    Attrib Speaker Number=Mark    0.34232392584446686
+    Attrib Speaker Number=Jo    0.5273840822041261
+    Attrib Speaker Number=Kate    -0.3345838041328532
+    Attrib Speaker Number=Penny    -0.43737460402140543
+    Attrib Speaker Number=Rose    -0.3767957600910972
+    Attrib Speaker Number=Mike    0.34546389517524995
+    Attrib Speaker Number=Nick    0.15552256897800018
+    Attrib Speaker Number=Rich    0.2022019463507438
+    Attrib Speaker Number=Tim    0.06813458695302467
+    Attrib Speaker Number=Sarah    0.5663420558941725
+    Attrib Speaker Number=Sue    0.42835219607144837
+    Attrib Speaker Number=Wendy    0.3392330126003587
+    Attrib Sex=Female    -1.1200534253963967
+    Attrib Feature 0    -7.902292008964672
+    Attrib Feature 1    2.0275081108685926
+    Attrib Feature 2    3.628314079921679
+    Attrib Feature 3    1.0099305672344177
+    Attrib Feature 4    4.010970653716031
+    Attrib Feature 5    2.0781561014637826
+    Attrib Feature 6    -0.5352003740533121
+    Attrib Feature 7    -4.186146648155797
+    Attrib Feature 8    -1.9869835916298604
+    Attrib Feature 9    -0.5656160916694916
+Sigmoid Node 32
+    Inputs    Weights
+    Threshold    -0.6396582266645326
+    Attrib Train or Test=Test    -0.3982877264355671
+    Attrib Speaker Number=Andrew    0.7264420467952541
+    Attrib Speaker Number=Bill    0.8991900076408589
+    Attrib Speaker Number=David    -0.05540528802164105
+    Attrib Speaker Number=Mark    -0.1860965961162754
+    Attrib Speaker Number=Jo    -1.704761261107434
+    Attrib Speaker Number=Kate    3.213917746360907
+    Attrib Speaker Number=Penny    1.3962286964394308
+    Attrib Speaker Number=Rose    0.7757099205252358
+    Attrib Speaker Number=Mike    0.825205445049499
+    Attrib Speaker Number=Nick    0.5433228004158384
+    Attrib Speaker Number=Rich    0.33913299959412707
+    Attrib Speaker Number=Tim    2.223599713438292
+    Attrib Speaker Number=Sarah    0.029522353300351918
+    Attrib Speaker Number=Sue    -0.3422983581084156
+    Attrib Speaker Number=Wendy    0.025772206589452406
+    Attrib Sex=Female    -0.6794996639618519
+    Attrib Feature 0    -1.323362591741679
+    Attrib Feature 1    6.293451710611389
+    Attrib Feature 2    4.856128974220549
+    Attrib Feature 3    2.6118658789329876
+    Attrib Feature 4    -5.384057654867299
+    Attrib Feature 5    -6.710400349044
+    Attrib Feature 6    -6.096282762978038
+    Attrib Feature 7    3.297499628041388
+    Attrib Feature 8    2.119744835078606
+    Attrib Feature 9    1.5056588741762895
+Sigmoid Node 33
+    Inputs    Weights
+    Threshold    -0.634912695190323
+    Attrib Train or Test=Test    -0.3683024878921609
+    Attrib Speaker Number=Andrew    -1.0857223584236044
+    Attrib Speaker Number=Bill    0.6215282943138541
+    Attrib Speaker Number=David    0.9821728493849763
+    Attrib Speaker Number=Mark    1.0021273319837394
+    Attrib Speaker Number=Jo    -0.1855528407245259
+    Attrib Speaker Number=Kate    0.2529900268680004
+    Attrib Speaker Number=Penny    2.590565440759621
+    Attrib Speaker Number=Rose    0.4441137007895204
+    Attrib Speaker Number=Mike    0.8400750944069248
+    Attrib Speaker Number=Nick    1.0719217357040187
+    Attrib Speaker Number=Rich    -2.3204674097999827
+    Attrib Speaker Number=Tim    1.9218100409210885
+    Attrib Speaker Number=Sarah    0.09165263778239895
+    Attrib Speaker Number=Sue    1.424756276043334
+    Attrib Speaker Number=Wendy    0.3290712777579785
+    Attrib Sex=Female    1.2321035449219713
+    Attrib Feature 0    3.0010055621928724
+    Attrib Feature 1    2.19698319709936
+    Attrib Feature 2    -8.652561334851573
+    Attrib Feature 3    -7.3237762182677075
+    Attrib Feature 4    -1.00195944466944
+    Attrib Feature 5    6.158202440224193
+    Attrib Feature 6    5.394251927004511
+    Attrib Feature 7    -2.2432018270806497
+    Attrib Feature 8    4.251152778016282
+    Attrib Feature 9    -1.0610335731595935
+Sigmoid Node 34
+    Inputs    Weights
+    Threshold    -0.7134755553604439
+    Attrib Train or Test=Test    0.011096086437969884
+    Attrib Speaker Number=Andrew    0.23996829864295832
+    Attrib Speaker Number=Bill    0.577426898051978
+    Attrib Speaker Number=David    -1.1170417684749305
+    Attrib Speaker Number=Mark    1.0459485880079165
+    Attrib Speaker Number=Jo    2.3433906725214984
+    Attrib Speaker Number=Kate    -0.9859371167909222
+    Attrib Speaker Number=Penny    -0.4611616816507367
+    Attrib Speaker Number=Rose    3.0690846969105063
+    Attrib Speaker Number=Mike    0.14886981009592182
+    Attrib Speaker Number=Nick    1.2792669027473225
+    Attrib Speaker Number=Rich    0.2170169354880391
+    Attrib Speaker Number=Tim    0.690103736251338
+    Attrib Speaker Number=Sarah    1.1702296102536893
+    Attrib Speaker Number=Sue    1.3159832537310874
+    Attrib Speaker Number=Wendy    -0.8273031361015662
+    Attrib Sex=Female    1.47073266225335
+    Attrib Feature 0    -0.33499229264280794
+    Attrib Feature 1    -6.865643498655148
+    Attrib Feature 2    -4.551328091760043
+    Attrib Feature 3    2.0887404233835354
+    Attrib Feature 4    -0.568935132107346
+    Attrib Feature 5    4.614620541611706
+    Attrib Feature 6    6.911246611469973
+    Attrib Feature 7    -2.373175607210031
+    Attrib Feature 8    -2.066988638167349
+    Attrib Feature 9    0.6136279588713432
+Sigmoid Node 35
+    Inputs    Weights
+    Threshold    -0.10035091447256306
+    Attrib Train or Test=Test    -0.09949828614384788
+    Attrib Speaker Number=Andrew    -1.0184094206108896
+    Attrib Speaker Number=Bill    0.24433547842030864
+    Attrib Speaker Number=David    1.2088221903050897
+    Attrib Speaker Number=Mark    1.847022851197855
+    Attrib Speaker Number=Jo    0.09439749946431518
+    Attrib Speaker Number=Kate    -0.9662767098758984
+    Attrib Speaker Number=Penny    1.0949700169528802
+    Attrib Speaker Number=Rose    -1.6746390420772008
+    Attrib Speaker Number=Mike    0.6013089803714036
+    Attrib Speaker Number=Nick    -0.6040034595064215
+    Attrib Speaker Number=Rich    0.0841528799475784
+    Attrib Speaker Number=Tim    -0.1389956761983658
+    Attrib Speaker Number=Sarah    1.4574086353962799
+    Attrib Speaker Number=Sue    0.2734677611573853
+    Attrib Speaker Number=Wendy    -1.145149351618538
+    Attrib Sex=Female    -1.5393736222144767
+    Attrib Feature 0    -4.980157943877684
+    Attrib Feature 1    -2.589132414881855
+    Attrib Feature 2    -0.6388252343208083
+    Attrib Feature 3    0.3627186689413728
+    Attrib Feature 4    2.1869883137553723
+    Attrib Feature 5    1.9248202205333618
+    Attrib Feature 6    3.9965861423351865
+    Attrib Feature 7    -3.3956380801512367
+    Attrib Feature 8    1.232573702840964
+    Attrib Feature 9    -0.5633417781176484
+Sigmoid Node 36
+    Inputs    Weights
+    Threshold    0.091919216602002
+    Attrib Train or Test=Test    -0.7573672577156236
+    Attrib Speaker Number=Andrew    0.272488215855759
+    Attrib Speaker Number=Bill    -0.6461335099237028
+    Attrib Speaker Number=David    -0.4927820708839462
+    Attrib Speaker Number=Mark    0.1889105167825968
+    Attrib Speaker Number=Jo    0.6102253917587118
+    Attrib Speaker Number=Kate    -1.4771178027908725
+    Attrib Speaker Number=Penny    1.6039754082449225
+    Attrib Speaker Number=Rose    -0.034907928842037
+    Attrib Speaker Number=Mike    -0.07852907344495234
+    Attrib Speaker Number=Nick    -0.26583260475247333
+    Attrib Speaker Number=Rich    -0.09127146227956227
+    Attrib Speaker Number=Tim    0.2730260826161158
+    Attrib Speaker Number=Sarah    0.4292721057307445
+    Attrib Speaker Number=Sue    -2.7092404277038646
+    Attrib Speaker Number=Wendy    1.1487648971354232
+    Attrib Sex=Female    0.14102865963157132
+    Attrib Feature 0    -4.756299999428673
+    Attrib Feature 1    3.4643460144918
+    Attrib Feature 2    0.2943348805180754
+    Attrib Feature 3    -4.496016136983124
+    Attrib Feature 4    0.6298257214349946
+    Attrib Feature 5    3.1393109765608016
+    Attrib Feature 6    2.4280400064659715
+    Attrib Feature 7    4.634199350475402
+    Attrib Feature 8    1.3563157211497086
+    Attrib Feature 9    -0.3539124940742681
+Sigmoid Node 37
+    Inputs    Weights
+    Threshold    -0.5861556461249637
+    Attrib Train or Test=Test    0.33081049270875573
+    Attrib Speaker Number=Andrew    3.2061719419118715
+    Attrib Speaker Number=Bill    0.3830845914930374
+    Attrib Speaker Number=David    1.3973190426924056
+    Attrib Speaker Number=Mark    -1.352104472862668
+    Attrib Speaker Number=Jo    -1.2945926189472392
+    Attrib Speaker Number=Kate    -0.025678161133660192
+    Attrib Speaker Number=Penny    0.3578198150840563
+    Attrib Speaker Number=Rose    0.7957997879836161
+    Attrib Speaker Number=Mike    -1.2731837143720295
+    Attrib Speaker Number=Nick    2.1364686196564207
+    Attrib Speaker Number=Rich    -2.2323565382291255
+    Attrib Speaker Number=Tim    1.2178636902165876
+    Attrib Speaker Number=Sarah    1.3506659289391225
+    Attrib Speaker Number=Sue    1.2642154948163922
+    Attrib Speaker Number=Wendy    1.0152457621839073
+    Attrib Sex=Female    0.1929749042515499
+    Attrib Feature 0    -8.293047689023293
+    Attrib Feature 1    7.778221373671335
+    Attrib Feature 2    4.023324587066649
+    Attrib Feature 3    -7.588129610805143
+    Attrib Feature 4    -4.074002555873843
+    Attrib Feature 5    0.21616354733156437
+    Attrib Feature 6    4.240930453579055
+    Attrib Feature 7    1.0270674261052837
+    Attrib Feature 8    1.9415128816384992
+    Attrib Feature 9    -1.8138361268295196
+Sigmoid Node 38
+    Inputs    Weights
+    Threshold    0.010268337738091535
+    Attrib Train or Test=Test    0.6551695845594254
+    Attrib Speaker Number=Andrew    1.0488638282680782
+    Attrib Speaker Number=Bill    -0.014156647202101752
+    Attrib Speaker Number=David    -1.438432859003905
+    Attrib Speaker Number=Mark    -1.6029894542246226
+    Attrib Speaker Number=Jo    1.3503435619709943
+    Attrib Speaker Number=Kate    1.7514236352418044
+    Attrib Speaker Number=Penny    0.05263360703400259
+    Attrib Speaker Number=Rose    -1.538443330275663
+    Attrib Speaker Number=Mike    2.025146995088879
+    Attrib Speaker Number=Nick    0.9671862758128057
+    Attrib Speaker Number=Rich    0.5970326222687915
+    Attrib Speaker Number=Tim    -1.6287856695397824
+    Attrib Speaker Number=Sarah    -0.1274344079820021
+    Attrib Speaker Number=Sue    -0.825815675122218
+    Attrib Speaker Number=Wendy    -0.22160641695568803
+    Attrib Sex=Female    0.24224822573185162
+    Attrib Feature 0    -0.9572484884150781
+    Attrib Feature 1    2.861896511123881
+    Attrib Feature 2    0.9055176705534089
+    Attrib Feature 3    -2.6583450291969086
+    Attrib Feature 4    -0.044797591670684415
+    Attrib Feature 5    5.629341086477118
+    Attrib Feature 6    1.3676111680731713
+    Attrib Feature 7    0.7938639649856855
+    Attrib Feature 8    -1.5965028628668068
+    Attrib Feature 9    3.9111482811889777
+Class hid
+    Input
+    Node 0
+Class hId
+    Input
+    Node 1
+Class hEd
+    Input
+    Node 2
+Class hAd
+    Input
+    Node 3
+Class hYd
+    Input
+    Node 4
+Class had
+    Input
+    Node 5
+Class hOd
+    Input
+    Node 6
+Class hod
+    Input
+    Node 7
+Class hUd
+    Input
+    Node 8
+Class hud
+    Input
+    Node 9
+Class hed
+    Input
+    Node 10
+
+
+Time taken to build model: 7.2 seconds
+
+=== Stratified cross-validation ===
+=== Summary ===
+
+Correctly Classified Instances         948               95.7576 %
+Incorrectly Classified Instances        42                4.2424 %
+Kappa statistic                          0.9533
+Mean absolute error                      0.0142
+Root mean squared error                  0.0799
+Relative absolute error                  8.596  %
+Root relative squared error             27.803  %
+Total Number of Instances              990     
+
+=== Detailed Accuracy By Class ===
+
+                 TP Rate  FP Rate  Precision  Recall   F-Measure  MCC      ROC Area  PRC Area  Class
+                 0.989    0.002    0.978      0.989    0.983      0.982    0.999     0.993     hid
+                 0.978    0.002    0.978      0.978    0.978      0.976    1.000     0.996     hId
+                 0.956    0.008    0.925      0.956    0.940      0.934    0.997     0.981     hEd
+                 0.944    0.002    0.977      0.944    0.960      0.957    0.977     0.956     hAd
+                 0.967    0.001    0.989      0.967    0.978      0.975    0.998     0.990     hYd
+                 0.878    0.004    0.952      0.878    0.913      0.906    0.979     0.936     had
+                 0.933    0.004    0.955      0.933    0.944      0.938    0.983     0.966     hOd
+                 0.978    0.002    0.978      0.978    0.978      0.976    0.999     0.995     hod
+                 0.978    0.006    0.946      0.978    0.962      0.958    0.998     0.981     hUd
+                 0.944    0.003    0.966      0.944    0.955      0.951    0.995     0.984     hud
+                 0.989    0.011    0.899      0.989    0.942      0.937    0.999     0.985     hed
+Weighted Avg.    0.958    0.004    0.958      0.958    0.958      0.954    0.993     0.979     
+
+=== Confusion Matrix ===
+
+  a  b  c  d  e  f  g  h  i  j  k   <-- classified as
+ 89  0  0  0  0  0  0  0  0  1  0 |  a = hid
+  2 88  0  0  0  0  0  0  0  0  0 |  b = hId
+  0  2 86  0  0  0  2  0  0  0  0 |  c = hEd
+  0  0  2 85  0  2  0  0  0  0  1 |  d = hAd
+  0  0  0  0 87  2  0  0  0  0  1 |  e = hYd
+  0  0  1  2  0 79  0  0  0  0  8 |  f = had
+  0  0  3  0  1  0 84  1  1  0  0 |  g = hOd
+  0  0  0  0  0  0  1 88  0  1  0 |  h = hod
+  0  0  0  0  0  0  1  0 88  1  0 |  i = hUd
+  0  0  0  0  0  0  0  1  4 85  0 |  j = hud
+  0  0  1  0  0  0  0  0  0  0 89 |  k = hed
+

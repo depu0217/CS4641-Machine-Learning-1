@@ -1,0 +1,73 @@
+=== Run information ===
+
+Scheme:       weka.classifiers.lazy.IBk -K 8 -W 0 -A "weka.core.neighboursearch.LinearNNSearch -A \"weka.core.EuclideanDistance -R first-last\""
+Relation:     vowel
+Instances:    990
+Attributes:   14
+              Train or Test
+              Speaker Number
+              Sex
+              Feature 0
+              Feature 1
+              Feature 2
+              Feature 3
+              Feature 4
+              Feature 5
+              Feature 6
+              Feature 7
+              Feature 8
+              Feature 9
+              Class
+Test mode:    10-fold cross-validation
+
+=== Classifier model (full training set) ===
+
+IB1 instance-based classifier
+using 8 nearest neighbour(s) for classification
+
+
+Time taken to build model: 0 seconds
+
+=== Stratified cross-validation ===
+=== Summary ===
+
+Correctly Classified Instances         784               79.1919 %
+Incorrectly Classified Instances       206               20.8081 %
+Kappa statistic                          0.7711
+Mean absolute error                      0.0838
+Root mean squared error                  0.19  
+Relative absolute error                 50.6872 %
+Root relative squared error             66.1023 %
+Total Number of Instances              990     
+
+=== Detailed Accuracy By Class ===
+
+                 TP Rate  FP Rate  Precision  Recall   F-Measure  MCC      ROC Area  PRC Area  Class
+                 0.833    0.008    0.915      0.833    0.872      0.861    0.995     0.930     hid
+                 0.867    0.030    0.743      0.867    0.800      0.781    0.973     0.692     hId
+                 0.833    0.023    0.781      0.833    0.806      0.787    0.984     0.802     hEd
+                 0.867    0.014    0.857      0.867    0.862      0.848    0.994     0.901     hAd
+                 0.822    0.048    0.632      0.822    0.715      0.690    0.969     0.668     hYd
+                 0.622    0.036    0.636      0.622    0.629      0.593    0.961     0.605     had
+                 0.689    0.018    0.795      0.689    0.738      0.716    0.978     0.762     hOd
+                 0.856    0.014    0.856      0.856    0.856      0.841    0.992     0.868     hod
+                 0.733    0.017    0.815      0.733    0.772      0.752    0.973     0.733     hUd
+                 0.811    0.003    0.961      0.811    0.880      0.872    0.996     0.925     hud
+                 0.778    0.018    0.814      0.778    0.795      0.776    0.980     0.775     hed
+Weighted Avg.    0.792    0.021    0.800      0.792    0.793      0.774    0.981     0.787     
+
+=== Confusion Matrix ===
+
+  a  b  c  d  e  f  g  h  i  j  k   <-- classified as
+ 75 13  2  0  0  0  0  0  0  0  0 |  a = hid
+  7 78  5  0  0  0  0  0  0  0  0 |  b = hId
+  0 12 75  2  0  1  0  0  0  0  0 |  c = hEd
+  0  0 11 78  0  1  0  0  0  0  0 |  d = hAd
+  0  0  0  4 74 11  1  0  0  0  0 |  e = hYd
+  0  0  1  7 17 56  0  0  0  0  9 |  f = had
+  0  0  0  0 23  0 62  5  0  0  0 |  g = hOd
+  0  0  0  0  1  0 12 77  0  0  0 |  h = hod
+  0  0  0  0  1  4  1  8 66  3  7 |  i = hUd
+  0  0  0  0  0  0  2  0 15 73  0 |  j = hud
+  0  2  2  0  1 15  0  0  0  0 70 |  k = hed
+
